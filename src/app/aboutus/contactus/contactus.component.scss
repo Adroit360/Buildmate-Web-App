@@ -1,0 +1,84 @@
+.bg {
+  background: url(https://images.unsplash.com/photo-1572259720143-e92dd4d42eae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  height: calc(100vh - 15rem);
+  position: fixed;
+  width: calc(100% - 10rem);
+  background-size: cover;
+  background-position: right;
+}
+.contactus{
+    margin-top: 15rem;
+    position: relative;
+    .picspace{
+      height: 40rem;
+    }
+    .info-space1{
+      background-color: var(--dark-white);
+      display: flex;
+      .loc-space{
+        width: 65%;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        .loc-card{
+          height: 25rem;
+          margin: .5rem;
+          width:100%;
+          box-shadow: var(--shadow);
+          display: flex;
+          &__left{
+            width: 50%;
+            background-color: white;
+          }
+          &__right{
+            width: 50%;
+          }
+        }
+      }
+      .git{
+        margin:2rem;
+        width: 35%;
+        background-color: white;
+        box-shadow: var(--shadow);
+      }
+    }
+    .info-space2,.info-space3{
+      background-color: var(--black);
+      padding: 3rem 3rem 8rem 3rem;
+      &__header{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        color:var(--color-primary);
+        padding: 3rem;
+      }
+      &__body{
+        display: flex;
+        justify-content: space-evenly;
+        .serv-box{
+          background-color: var(--light-black);
+          color:white;
+          padding:2rem;
+          margin: 2rem;
+          &__title{
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            color:var(--color-primary);
+            font-weight: bolder;
+          }
+          &__text{
+
+          }
+          &__phone{
+            margin: .3rem;
+            span{margin: .3rem;}
+          }
+          &__mail{
+            span{margin: .3rem;}
+          }
+        }
+      }
+    }
+  
+  }
+  

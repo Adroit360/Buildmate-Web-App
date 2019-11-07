@@ -1,0 +1,83 @@
+.footer{
+    .pfooteractions{
+        background:#333;
+        display: flex;
+        &>*{
+            margin:2rem;
+        }
+        .pages{
+            flex-grow: 1;
+            &__header{
+                font-size: 2rem;
+                color:rgb(221, 221, 221);
+                text-transform: uppercase;
+                letter-spacing: .5rem;
+                font-weight: bold;
+                margin: 1rem;
+            }
+            &__body{
+                color:White;
+            }
+        }
+        .categories{
+            flex-grow: 2;
+            &__header{
+                font-size: 2rem;
+                color:rgb(221, 221, 221);
+                text-transform: uppercase;
+                letter-spacing: .5rem;
+                font-weight: bold;
+                margin: 1rem;
+            }
+            &__body{
+                color:White;
+            }
+        }
+        .contact{
+            flex-grow: 1;
+            &__header{
+                font-size: 2rem;
+                color:rgb(221, 221, 221);
+                text-transform: uppercase;
+                letter-spacing: .5rem;
+                font-weight: bold;
+                margin: 1rem;
+            }
+            &__body{
+                color:White;
+            }
+        }
+    }
+    .pfooter{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__left{
+            background-color: white;
+            width: 20rem;
+            padding:1rem;
+            margin: 2rem;
+            border-radius: .3rem;
+            overflow: hidden;
+        }
+        &__middle{
+            display: flex;
+            .sociallink{
+                height: 5rem;
+                width:5rem;
+                background-color: white;
+                cursor: pointer;
+                margin: .5rem;
+                border-radius: .3rem;
+                &:hover{
+                    background-color: #aaa;
+                }
+            }
+        }
+        &__right{
+            color: white;
+            margin: 2rem;
+        }
+    }
+}

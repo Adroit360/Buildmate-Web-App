@@ -1,0 +1,189 @@
+<app-header></app-header>
+<div class="bg"></div>
+<div class="home">
+    <div class="pcarousel">
+        <div class="left-over">
+            <div class="left-over__text">BuildMate Professional sealant</div>
+            <button class="left-over__btn btn btn-secondary">Discover more now</button>
+        </div>
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img [src]="images[0]" alt="Random first slide">
+                </div>
+                <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img [src]="images[1]" alt="Random second slide">
+                </div>
+                <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img [src]="images[2]" alt="Random third slide">
+                </div>
+                <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+    <div class="pnewproducts">
+        <div class="pnewproducts__header">New Products</div>
+        <div *ngIf="dataStore.allProducts" class="pnewproducts__body">
+            <div *ngFor="let product of dataStore.allProducts.slice(0,10)" class="prod-container">
+                <div class="prod-container__body">
+                    <div class="prod-image">
+                        <img [src]="product.imageUrl" alt="prod-Image">
+                    </div>
+                </div>
+                <div class="prod-container__footer">
+                    <div class="text">{{product.productName}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pworldclass">
+        <div class="pworldclass__left">
+            At Everbuild – A Sika Company we are passionate about the products we produce, we have always worked on the
+            simple premise that Trade Users will only come back for good products, so that’s all we make!
+        </div>
+        <div class="pworldclass__right">
+            <div class="pworldclass__right--header">World Class Assurance</div>
+            <div class="pworldclass__right--body"></div>
+        </div>
+    </div>
+    <div class="psocialmedia">
+        <div class="psocialmedia__header">Social Media</div>
+        <div class="psocialmedia__body">
+            <div class="smedia-box">
+                <div class="smedia-box__header">
+                    <img src="../../assets/images/twitter.png" alt="">
+                    <div class="smedia-box__header--text">Twitter</div>
+                </div>
+                <div class="smedia-box__body">
+                    <div class="smedia-box__body--text">Some Plenty Text</div>
+                </div>
+                <div class="smedia-box__footer">
+                    <div class="smedia-box__footer--left">Date</div>
+                    <div class="smedia-box__footer--right">
+                        <button class="btn btn-primary">Follow us on twitter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="smedia-box">
+                <div class="smedia-box__header">
+                    <img src="../../assets/images/fb.png" alt="">
+                    <div class="smedia-box__header--text">Facebook</div>
+                </div>
+                <div class="smedia-box__body">
+                    <div class="smedia-box__body--text">Some Plenty Text</div>
+                </div>
+                <div class="smedia-box__footer">
+                    <div class="smedia-box__footer--left">Date</div>
+                    <div class="smedia-box__footer--right">
+                        <button class="btn btn-primary">Follow us on Facebook</button>
+                    </div>
+                </div>
+            </div>
+            <div class="smedia-box">
+                <div class="smedia-box__header">
+                    <img src="../../assets/images/in.png" alt="">
+                    <div class="smedia-box__header--text">LinkedIn</div>
+                </div>
+                <div class="smedia-box__body">
+                    <div class="smedia-box__body--text">Some Plenty Text</div>
+                </div>
+                <div class="smedia-box__footer">
+                    <div class="smedia-box__footer--left">Date</div>
+                    <div class="smedia-box__footer--right">
+                        <button class="btn btn-primary">Follow us on LinkedIn</button>
+                    </div>
+                </div>
+            </div>
+            <div class="smedia-box">
+                <div class="smedia-box__header">
+                    <img src="../../assets/images/youtube.png" alt="">
+                    <div class="smedia-box__header--text">Youtube</div>
+                </div>
+                <div class="smedia-box__body">
+                    <div class="smedia-box__body--text">Some Plenty Text</div>
+                </div>
+                <div class="smedia-box__footer">
+                    <div class="smedia-box__footer--left">Date</div>
+                    <div class="smedia-box__footer--right">
+                        <button class="btn btn-primary">Subscribe to our youtube channel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="platestvideos">
+        <div class="platestvideos__header">Latest Videos</div>
+        <div class="platestvideos__body">
+            <div class="vid-container">
+                <div class="vid-container__body">
+                    <div class="vid-image">
+                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
+                    </div>
+                </div>
+                <div class="vid-container__footer">
+                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
+                </div>
+            </div>
+            <div class="vid-container">
+                <div class="vid-container__body">
+                    <div class="vid-image">
+                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
+                    </div>
+                </div>
+                <div class="vid-container__footer">
+                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
+                </div>
+            </div>
+            <div class="vid-container">
+                <div class="vid-container__body">
+                    <div class="vid-image">
+                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
+                    </div>
+                </div>
+                <div class="vid-container__footer">
+                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
+                </div>
+            </div>
+            <div class="vid-container">
+                <div class="vid-container__body">
+                    <div class="vid-image">
+                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
+                    </div>
+                </div>
+                <div class="vid-container__footer">
+                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pultimate">
+        <div class="pultimate__left">
+            <img src="../../assets/images/book.png" alt="">
+        </div>
+        <div class="pultimate__right">
+            <div class="pultimate__right--header">
+                <!-- <h1>New Ultimate</h1>
+                <h1>Product Catalogue</h1> -->
+            </div>
+            <div class="pultimate__right--body"></div>
+        </div>
+
+    </div>
+    <app-footer></app-footer>
+
+</div>

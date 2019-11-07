@@ -1,0 +1,21 @@
+.breadcrump{
+    padding:2rem;
+    background-color:var(--black);
+    &__top{
+        text-transform: uppercase;
+        color:white;
+        padding:2rem;
+        font-weight: bolder;
+    }
+    &__bottom{
+        &--text{
+            padding:2rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            background-color: white;
+            border-radius: .3rem;
+            color: var(--color-primary);
+            font-size: 2rem;
+        }
+    }
+}

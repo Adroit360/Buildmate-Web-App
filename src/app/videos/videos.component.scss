@@ -1,0 +1,21 @@
+.videos{
+    margin-top:15rem;
+    position: relative;
+    background-color: var(--black);
+    &__head{
+        color: var(--color-primary);
+        font-size: 1.7rem;
+        margin:2rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        letter-spacing: .3rem;
+        
+    }
+    &__body{
+        .allvideos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.search {
+  margin-top: 15rem;
+  position: relative;
+  background-color: var(--black);
+  .search-body {
+    padding:2rem;
+    position: relative;
+    top:-11rem;
+    display: flex;
+   
+    overflow:hidden;
+    &__left{
+       height: 100%;
+      .navbox{
+        position: fixed;
+        height:calc(100% - 25rem);
+        z-index: 1;
+        &__head{
+          text-align: center;
+          font-size: 1.8rem;
+          font-weight: bolder;
+          text-transform: uppercase;
+          position: absolute;
+          top:0;
+          left:0;
+          width:100%;
+        }
+        &__body{
+          margin-top: 3rem;
+          height: calc(100% - 3rem);
+          overflow: auto;
+        }
+        width:25rem;
+        background-color: white;
+       // height: 60rem;
+        overflow-y: auto;
+      }
+    }
+    &__right{
+      flex-grow: 1;
+      position: relative;
+      top:11rem;
+      margin-left: 27rem;
+     // overflow: auto;
+      min-height:calc(100% - 25rem);
+      .searchedproducts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        &__body{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+  
+      }
+    }
+  }
+
+  app-footer{
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+}

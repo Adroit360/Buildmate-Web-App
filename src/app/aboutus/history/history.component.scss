@@ -1,0 +1,31 @@
+.history {
+  margin-top: 15rem;
+  position: relative;
+  background-color: var(--black);
+  .historyspace{
+    background-color: white;
+    border-radius: .3rem;
+    margin: 2rem;
+    padding:2rem;
+    img{
+      width: 30rem;
+      margin: 1rem;
+    }
+
+    img:first-child{
+      float: left;
+    }
+
+    img:nth-of-type(2){
+      float: right;
+    }
+    img:nth-of-type(3){
+      float: left;
+    }
+
+    .nb{
+      clear: both;
+      text-align: center;
+    }
+  }
+}

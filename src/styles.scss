@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "styles/abstracts/functions";
+@import "styles/abstracts/mixins";
+@import "styles/abstracts/variables";
+
+@import "styles/base/base";
+@import "styles/base/typography";
+@import "styles/base/animations";
+@import "styles/base/utilities";
+
+//Components
+@import "styles/components/productcontainer";
+@import "styles/components/vidcontainer";
+@import "styles/components/smediabox";
+@import "styles/components/mybtn";
+@import "styles/components/accorditem";
+@import "styles/components/searchbox";

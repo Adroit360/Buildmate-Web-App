@@ -1,0 +1,32 @@
+.smedia-box{
+    padding: 1rem;
+    //width: 30rem;
+    display: inline-block;
+    background-color: white;
+    margin: 1rem;
+    box-shadow: var(--shadow);
+    flex-grow: 1;
+    cursor: pointer;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 4rem;
+            height:4rem;
+        }
+        &--text{
+            text-transform: uppercase;
+            font-size: 1.5rem;
+
+        }
+    }
+    &__body{
+        padding: .5rem;
+    }
+    &__footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

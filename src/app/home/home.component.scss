@@ -1,0 +1,178 @@
+.bg {
+  background: url(../../assets/images/man.png);
+  height: calc(100vh - 15rem);
+  position: fixed;
+  width: calc(100% - 10rem);
+  background-size: cover;
+  background-position: right;
+}
+.home {
+  //background-color:white;
+  // height:300rem;
+  margin-top: 15rem;
+  position: relative;
+  .pcarousel {
+    //background: url(../../assets/buildmate/banners/1.jpg);
+    //height: calc(100vh - 20rem);
+    //height: 50rem;
+    border: 1px solid rgb(133, 133, 133);
+    overflow: hidden;
+    position: relative;
+    .left-over{
+      z-index: 100;
+      height: 100%;
+      position: absolute;
+      width: 45rem;
+      background-color: #4d4d4ddb;
+      clip-path: polygon(0% 0%, 100% 0%, 64% 100%, 0% 100%);
+      padding: 1rem 16rem 1rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      &::after{
+        content: "";
+        height: 120%;
+        position: absolute;
+        clip-path: polygon(97% 0%, 100% 0%, 64% 100%, 54% 100%);
+        background-color: var(--color-primary);
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+      &__text{
+        font-size: 3rem;
+        color:var(--color-primary);
+        font-weight: bolder;
+      }
+      &__btn{
+        padding:1rem;
+        font-size: 1.5rem;
+      }
+    }
+    ngb-carousel{
+      height: 100%;
+    }
+  }
+  .pnewproducts {
+    background-color: #333;
+
+    &__header {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      height: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+      background-image: linear-gradient(to right, transparent, black, transparent);
+      margin: 0rem 0rem 1rem 0rem;
+    }
+
+    &__body {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  .pworldclass {
+    display: flex;
+    height: 30rem;
+    padding: 3rem;
+    background-color: #333;
+    &__left {
+      flex-grow: 1;
+      margin: 1rem;
+      background-color: white;
+      max-width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.5rem;
+      text-align: center;
+      height: 100%;
+      padding: 1rem;
+    }
+    &__right {
+      flex-grow: 1;
+      margin: 1rem;
+      background-color: white;
+      height: 100%;
+      max-width: 50%;
+      &--header {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: bold;
+        letter-spacing: 0.5rem;
+      }
+      &--body {
+        height: 25rem;
+        background: url(../../assets/images/wordclasss.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        transform: scale(0.7);
+      }
+    }
+  }
+
+  .psocialmedia {
+    background-color: rgb(43, 101, 155);
+
+    &__header {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      height: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+      background-image: linear-gradient(to right, transparent, rgb(4, 69, 131), transparent);
+      margin: 0rem 0rem 1rem 0rem;
+    }
+    &__body {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  .platestvideos {
+    background-color: rgb(67, 148, 36);
+
+    &__header {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      height: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+      background-image: linear-gradient(to right, transparent, rgb(17, 143, 0), transparent);
+      margin: 0rem 0rem 1rem 0rem;
+    }
+
+    &__body {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+
+  .pultimate {
+    height: 45rem;
+    display: flex;
+    &__left {
+      max-width: 50%;
+    }
+    &__right {
+      max-width: 50%;
+    }
+  }
+}
