@@ -48,7 +48,7 @@ export class DataStore {
                 }
             }
         }
-        console.log(this.allProducts);
+        //console.log(this.allProducts);
     }
 
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataStore } from 'src/Services/dataStore';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -8,13 +9,14 @@ import { DataStore } from 'src/Services/dataStore';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(public dataStore:DataStore) { }
+  searchWord:string;
+  constructor(public dataStore:DataStore,private router:Router) { }
 
   ngOnInit() {
 
   }
 
   search(){
-    console.log("Bankue");
+    this.router.navigate(["/search","word",this.searchWord]);
   }
 }

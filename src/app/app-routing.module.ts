@@ -10,6 +10,7 @@ import { DownloadComponent } from './download/download.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { BlogComponent } from './blog/blog.component';
 import { SearchComponent } from './search/search.component';
+import { ProductdescComponent } from './productdesc/productdesc.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -22,13 +23,16 @@ const routes: Routes = [
   { path: "faqs", component: FaqsComponent },
   { path: "blog", component: BlogComponent },
   {path:"search",component:SearchComponent},
+  {path:"search/word/:word",component:SearchComponent},
   {path:"search/:company",component:SearchComponent},
   {path:"search/:company/:category",component:SearchComponent},
-  {path:"search/:company/:category/:subCategory",component:SearchComponent}
+  {path:"search/:company/:category/:subCategory",component:SearchComponent},
+  {path:"productdesc/:productName",component:ProductdescComponent}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{useHash:true})],
   exports: [RouterModule]
+  
 })
 export class AppRoutingModule { }
