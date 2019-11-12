@@ -21,6 +21,7 @@ import { DataStore } from 'src/Services/dataStore';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { ProductdescComponent } from './productdesc/productdesc.component';
+import { VideodescComponent } from './videodesc/videodesc.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ProductdescComponent } from './productdesc/productdesc.component';
     FaqsComponent,
     BlogComponent,
     SearchComponent,
-    ProductdescComponent
+    ProductdescComponent,
+    VideodescComponent
   ],
   imports: [
     BrowserModule,

@@ -9,20 +9,28 @@
   &__top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 10rem;
     padding: 0.5rem 1rem;
     background-color:var(--black);
     &--left {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       .brand {
         display: inline-block;
         margin-left: 2rem;
-        height: 6rem;
-        width: 20rem;
-        background-color: white;
-        padding:1rem;
+        width:5rem;
         border-radius: .3rem;
+      }
+      .brandtext{
+        color:white;
+        margin: 0rem 2rem;
+        align-self: flex-end;
+        text-transform: uppercase;
+        
+      }
+      .otherbrand{
+        width:17rem;
       }
     }
     &--right {
@@ -43,7 +51,8 @@
           flex: 1 1;
           text-transform: uppercase;
           background-color: var(--color-secondary);
-          color: var(--color-primary);
+          //color: var(--color-primary);
+          color:white;
           cursor: pointer;
           display: flex;
           align-items: center;
@@ -51,7 +60,8 @@
           position: relative;
           transition:all .2s;
           & > a {
-            color: var(--color-primary);
+            //color: var(--color-primary);
+            color:white;
             text-decoration: none;
             width: 100%;
             height: 100%;
@@ -62,9 +72,9 @@
           }
           &:hover {
             background-color: var(--light-black);
-            color: white;
+            color: rgb(204, 203, 203);
             & > a {
-              color: white;
+              color: rgb(204, 203, 203);
               font-weight: bolder;
             }
             .item-menu {
@@ -127,6 +137,19 @@
 
 .products-listbox.single {
   width: 100%;
+  .products-listbox--top{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    span{
+      widows: 0.5rem;
+      height:.5rem;
+    }
+    a{
+      color:black;
+    }
+  }
 }
 .products-listbox {
   background-color: white;

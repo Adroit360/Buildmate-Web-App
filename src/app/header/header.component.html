@@ -2,15 +2,17 @@
     <div class="header__top">
         <div class="header__top--left">
             <a routerLink="/" class="brand">
-                <img src="../../assets/images/brand.png" alt="">
+                <img src="../../assets/images/bd2.png" alt="">
             </a>
-            <div class="brandtext"></div>
-            <div class="otherbrand"></div>
+            <div class="brandtext">The Building Clinic</div>
+            <div class="otherbrand">
+                    <img src="../../assets/images/mate1.png" alt="">
+            </div>
         </div>
         <div class="header__top--right">
-            <div class="searchbox">
-                <input [(ngModel)]="searchWord" (keyup.enter)="search()" type="search" placeholder="Search...">
-                <div class="search"></div>
+            <div class="searchbox2">
+                <input [(ngModel)]="searchWord" (keyup.enter)="search()" type="search" placeholder="Search Products">
+                <button (click)="search()" class="icon"><i class="fa fa-search"></i></button>
             </div>
         </div>
     </div>
@@ -21,11 +23,13 @@
                     <div class="item-menu products">
                         <div class="allproducts">
                             <div class="products-listbox single">
-                                <div class="products-listbox--top"
-                                    style="background-image:url(../../assets/buildmate/DIY/10.jpg)">
+                                <div class="products-listbox--top">
+                                    <div *ngFor="let company of dataStore.companies" class="companylink">
+                                        <span [ngStyle]="{'background-color': getRandomColor()}" class="cbox"></span> <a [routerLink]="['/search',company.companyName]">{{company.companyName}}</a>
+                                    </div>
                                 </div>
                                 <div class="products-listbox--bottom">
-                                    <button class="mybtn">View All X Products</button>
+                                    <a [routerLink]="['/search','word','***']" class="mybtn">View All Products</a>
                                 </div>
                             </div>
 
@@ -34,12 +38,12 @@
                             <div *ngFor="let company of dataStore.companies" class="catproducts">
                                 <div class="products-listbox">
                                     <div class="products-listbox--top">
-                                        <a class="topstrip" style="background-color: yellow;" [routerLink]="['/search',company.companyName]">{{company.companyName}}</a>
+                                        <a class="topstrip" style="background-color: var(--color-primary);color:white;" [routerLink]="['/search',company.companyName]">{{company.companyName}}</a>
                                         <div class="topbody">
                                             <div *ngFor="let category of company.categories" class="accorditem">
                                                 <input type="checkbox" [id]="category.categoryName">
                                                 <label class="head" [for]="category.categoryName">
-                                                    <span style="background-color: blue;" class="cbox"></span> <a [routerLink]="['/search',company.companyName,category.categoryName]">{{category.categoryName}}</a>
+                                                    <span [ngStyle]="{'background-color': getRandomColor()}" class="cbox"></span> <a [routerLink]="['/search',company.companyName,category.categoryName]">{{category.categoryName}}</a>
                                                     <span class="fa fa-arrow-up"></span>
                                                 </label>
                                                 <div class="body">
@@ -51,7 +55,7 @@
                                         </div>
                                     </div>
                                     <div class="products-listbox--bottom">
-                                        <a [routerLink]="['search',company.companyName]" class="mybtn">View All {{company.companyName}} Products</a>
+                                        <a [routerLink]="['/search',company.companyName]" class="mybtn">View All {{company.companyName}} Products</a>
                                     </div>
                                 </div>
                             </div>
@@ -61,15 +65,15 @@
                 </li>
                 <li class="navlist__item"><a routerLink="/aboutus">About us</a>
                     <ul class="item-menu navlist">
-                        <li class="navlist__item"><a routerLink="/videos">Videos</a></li>
-                        <li class="navlist__item"><a routerLink="/aboutus/group">Group</a></li>
-                        <li class="navlist__item"><a routerLink="/aboutus/history">History</a></li>
+                        <!-- <li class="navlist__item"><a routerLink="/aboutus/group">Group</a></li> -->
                         <li class="navlist__item"><a routerLink="/aboutus/contactus">Contact us</a></li>
                         <!-- <li class="navlist__item"><a routerLink="/videos">Career</a></li> -->
                     </ul>
                 </li>
-                <li class="navlist__item"><a routerLink="/downloads">Downloads</a></li>
-                <li class="navlist__item"><a routerLink="/faqs">Faqs</a></li>
+                <!-- <li class="navlist__item"><a routerLink="/downloads">Downloads</a></li> -->
+                <li class="navlist__item"><a routerLink="/videos">Videos</a></li>
+                <!-- <li class="navlist__item"><a routerLink="/faqs">Faqs</a></li> -->
+                <li class="navlist__item"><a routerLink="/aboutus/history">History</a></li>
                 <li class="navlist__item"><a routerLink="/blog">Blog</a></li>
             </ul>
         </nav>

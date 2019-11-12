@@ -1,5 +1,5 @@
 .bg {
-  background: url(../../assets/images/man.png);
+  background: url(../../assets/images/bgwide.jpeg);
   height: calc(100vh - 15rem);
   position: fixed;
   width: calc(100% - 10rem);
@@ -43,7 +43,7 @@
       }
       &__text{
         font-size: 3rem;
-        color:var(--color-primary);
+        color:white;
         font-weight: bolder;
       }
       &__btn{
@@ -56,6 +56,7 @@
     }
   }
   .pnewproducts {
+    padding:2rem;
     background-color: #333;
 
     &__header {
@@ -120,8 +121,8 @@
   }
 
   .psocialmedia {
-    background-color: rgb(43, 101, 155);
-
+    background-color: #333;
+    padding:2rem;
     &__header {
       font-size: 1.5rem;
       text-transform: uppercase;
@@ -132,7 +133,7 @@
       align-items: center;
       font-weight: bold;
       color: white;
-      background-image: linear-gradient(to right, transparent, rgb(4, 69, 131), transparent);
+      background-image: linear-gradient(to right, transparent, black, transparent);
       margin: 0rem 0rem 1rem 0rem;
     }
     &__body {
@@ -142,8 +143,8 @@
   }
 
   .platestvideos {
-    background-color: rgb(67, 148, 36);
-
+    background-color: #333;
+    padding:2rem;
     &__header {
       font-size: 1.5rem;
       text-transform: uppercase;
@@ -154,7 +155,7 @@
       align-items: center;
       font-weight: bold;
       color: white;
-      background-image: linear-gradient(to right, transparent, rgb(17, 143, 0), transparent);
+      background-image: linear-gradient(to right, transparent, black, transparent);
       margin: 0rem 0rem 1rem 0rem;
     }
 

@@ -2,10 +2,10 @@
 <div class="bg"></div>
 <div class="home">
     <div class="pcarousel">
-        <div class="left-over">
+        <!-- <div class="left-over">
             <div class="left-over__text">BuildMate Professional sealant</div>
             <button class="left-over__btn btn btn-secondary">Discover more now</button>
-        </div>
+        </div> -->
         <ngb-carousel *ngIf="images">
             <ng-template ngbSlide>
                 <div class="picsum-img-wrapper">
@@ -38,8 +38,8 @@
     </div>
     <div class="pnewproducts">
         <div class="pnewproducts__header">New Products</div>
-        <div *ngIf="dataStore.allProducts" class="pnewproducts__body">
-            <div *ngFor="let product of dataStore.allProducts.slice(0,10)" class="prod-container">
+        <div *ngIf="newProducts" class="pnewproducts__body">
+            <a [routerLink]="['/productdesc',product.productId]" *ngFor="let product of newProducts" class="prod-container">
                 <div class="prod-container__body">
                     <div class="prod-image">
                         <img [src]="product.imageUrl" alt="prod-Image">
@@ -48,7 +48,7 @@
                 <div class="prod-container__footer">
                     <div class="text">{{product.productName}}</div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <div class="pworldclass">
@@ -70,10 +70,10 @@
                     <div class="smedia-box__header--text">Twitter</div>
                 </div>
                 <div class="smedia-box__body">
-                    <div class="smedia-box__body--text">Some Plenty Text</div>
+                    <!-- <div class="smedia-box__body--text">Some Plenty Text</div> -->
                 </div>
                 <div class="smedia-box__footer">
-                    <div class="smedia-box__footer--left">Date</div>
+                    <!-- <div class="smedia-box__footer--left">Date</div> -->
                     <div class="smedia-box__footer--right">
                         <button class="btn btn-primary">Follow us on twitter</button>
                     </div>
@@ -81,16 +81,16 @@
             </div>
             <div class="smedia-box">
                 <div class="smedia-box__header">
-                    <img src="../../assets/images/fb.png" alt="">
+                     <div class="sociallink"><i style="font-size: 3rem;" class="fa fa-facebook"></i></div>
                     <div class="smedia-box__header--text">Facebook</div>
                 </div>
                 <div class="smedia-box__body">
-                    <div class="smedia-box__body--text">Some Plenty Text</div>
+                    <!-- <div class="smedia-box__body--text">Some Plenty Text</div> -->
                 </div>
                 <div class="smedia-box__footer">
-                    <div class="smedia-box__footer--left">Date</div>
+                    <!-- <div class="smedia-box__footer--left">Date</div> -->
                     <div class="smedia-box__footer--right">
-                        <button class="btn btn-primary">Follow us on Facebook</button>
+                        <a href="https://www.facebook.com/buildmategh/" class="btn btn-primary">Follow us on Facebook</a>
                     </div>
                 </div>
             </div>
@@ -100,10 +100,10 @@
                     <div class="smedia-box__header--text">LinkedIn</div>
                 </div>
                 <div class="smedia-box__body">
-                    <div class="smedia-box__body--text">Some Plenty Text</div>
+                    <!-- <div class="smedia-box__body--text">Some Plenty Text</div> -->
                 </div>
                 <div class="smedia-box__footer">
-                    <div class="smedia-box__footer--left">Date</div>
+                    <!-- <div class="smedia-box__footer--left">Date</div> -->
                     <div class="smedia-box__footer--right">
                         <button class="btn btn-primary">Follow us on LinkedIn</button>
                     </div>
@@ -115,10 +115,10 @@
                     <div class="smedia-box__header--text">Youtube</div>
                 </div>
                 <div class="smedia-box__body">
-                    <div class="smedia-box__body--text">Some Plenty Text</div>
+                    <!-- <div class="smedia-box__body--text">Some Plenty Text</div> -->
                 </div>
                 <div class="smedia-box__footer">
-                    <div class="smedia-box__footer--left">Date</div>
+                    <!-- <div class="smedia-box__footer--left">Date</div> -->
                     <div class="smedia-box__footer--right">
                         <button class="btn btn-primary">Subscribe to our youtube channel</button>
                     </div>
@@ -128,53 +128,23 @@
     </div>
     <div class="platestvideos">
         <div class="platestvideos__header">Latest Videos</div>
-        <div class="platestvideos__body">
-            <div class="vid-container">
+        <div *ngIf="latestVideos" class="platestvideos__body">
+            <a [routerLink]="['/videodesc',video.videoId]" *ngFor="let video of latestVideos" class="vid-container">
                 <div class="vid-container__body">
                     <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
+                        <img [src]="video.thumbnailUrl" alt="vid-Image">
                     </div>
                 </div>
                 <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
+                    <div class="text">{{video.videoName}}</div>
                 </div>
-            </div>
-            <div class="vid-container">
-                <div class="vid-container__body">
-                    <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
-                    </div>
-                </div>
-                <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
-                </div>
-            </div>
-            <div class="vid-container">
-                <div class="vid-container__body">
-                    <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
-                    </div>
-                </div>
-                <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
-                </div>
-            </div>
-            <div class="vid-container">
-                <div class="vid-container__body">
-                    <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
-                    </div>
-                </div>
-                <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
-                </div>
-            </div>
+            </a>
         </div>
     </div>
     <div class="pultimate">
-        <div class="pultimate__left">
+        <!-- <div class="pultimate__left">
             <img src="../../assets/images/book.png" alt="">
-        </div>
+        </div> -->
         <div class="pultimate__right">
             <div class="pultimate__right--header">
                 <!-- <h1>New Ultimate</h1>

@@ -4,24 +4,21 @@
             <div class="pages__header">Pages</div>
             <div class="pages__body">
                 <ul>
-                    <li><a routerLink="product">-Products</a></li>
-                    <li><a routerLink="aboutus">-About Us</a></li>
-                    <li><a routerLink="download">-Downloads</a></li>
-                    <li><a routerLink="faqs">-FAQs</a></li>
-                    <li><a routerLink="videos">-Video</a></li>
-                    <li><a routerLink="blog">-blog</a></li>
-                    <li><a routerLink="aboutus/group">-Group</a></li>
-                    <li><a routerLink="aboutus/history">-History</a></li>
-                    <li><a routerLink="aboutus/contactus">-Contact Us</a></li>
-                    <li><a routerLink="product">-Terms and Conditions</a></li>
+                    <li><a routerLink="/">-Products</a></li>
+                    <li><a routerLink="/aboutus">-About Us</a></li>
+                    <li><a routerLink="/videos">-Video</a></li>
+                    <li><a routerLink="/blog">-blog</a></li>
+                    <li><a routerLink="/aboutus/group">-Group</a></li>
+                    <li><a routerLink="/aboutus/history">-History</a></li>
+                    <li><a routerLink="/aboutus/contactus">-Contact Us</a></li>
                 </ul>
             </div>
         </div>
         <div class="categories">
-            <div class="categories__header">categories</div>
+            <div class="categories__header">Patners</div>
             <div class="categories__body">
                 <ul *ngIf="dataStore.companies">
-                    <li *ngFor="let category of dataStore.companies[0].categories"><a href="">-{{category.categoryName}}</a></li>
+                    <li *ngFor="let company of dataStore.companies"><a [routerLink]="['/search',company.companyName]">-{{company.companyName}}</a></li>
                 </ul>
             </div>
         </div>
@@ -30,22 +27,30 @@
             <div class="contact__body">
                 <ul>
                     <li>Tel:0557560016</li>
-                    <li>BuildMate Building Products Ltd</li>
-                    <li>Cross Green Real estate</li>
-                    <li>Lead LS9 OSW</li>
+                    <li>Buildmate Specialist Product Limited</li>
+                    <li>19 Kojo Thompson Road</li>
+                    <li>Opp. F Malawi Eng.</li>
+                    <li>Tudu Lebanon House</li>
+                    <li>Accra- Ghana.</li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="pfooter">
         <div class="pfooter__left">
-            <img src="../../assets/images/brand.png" alt="">
+                <a routerLink="/" class="brand">
+                    <img src="../../assets/images/bd2.png" alt="">
+                </a>
+                <div class="brandtext">The Building Clinic</div>
+                <div class="otherbrand">
+                        <img src="../../assets/images/mate1.png" alt="">
+                </div>
         </div>
         <div class="pfooter__middle">
-            <div class="sociallink"><img src="../../assets/images/fb.png" alt=""></div>
-            <div class="sociallink"><img src="../../assets/images/in.png" alt=""></div>
-            <div class="sociallink"><img src="../../assets/images/youtube.png" alt=""></div>
-            <div class="sociallink"><img src="../../assets/images/twitter.png" alt=""></div>
+            <a href="https://www.facebook.com/buildmategh/" class="sociallink"><i class="fa fa-facebook"></i></a>
+            <div class="sociallink"><i class="fa fa-linkedin"></i></div>
+            <div class="sociallink"><i class="fa fa-youtube"></i></div>
+            <div class="sociallink"><i class="fa fa-twitter"></i></div>
         </div>
         <div class="pfooter__right">
             <div class="text">@ Copyright Buildmate 2019</div>

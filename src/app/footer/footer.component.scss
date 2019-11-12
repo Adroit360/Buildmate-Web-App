@@ -31,6 +31,14 @@
             }
             &__body{
                 color:White;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    height: 18rem;
+                    overflow: hidden;
+                }
+
             }
         }
         .contact{
@@ -54,24 +62,35 @@
         justify-content: space-between;
         align-items: center;
         &__left{
-            background-color: white;
-            width: 20rem;
-            padding:1rem;
-            margin: 2rem;
-            border-radius: .3rem;
-            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+            .brand {
+              display: inline-block;
+              margin-left: 2rem;
+              width:5rem;
+              border-radius: .3rem;
+            }
+            .brandtext{
+              color:white;
+              margin: 0rem 2rem;
+              align-self: flex-end;
+              text-transform: uppercase;
+              
+            }
+            .otherbrand{
+              width:17rem;
+            }
         }
         &__middle{
             display: flex;
+            font-size: 3rem;
+            text-align: center;
             .sociallink{
-                height: 5rem;
-                width:5rem;
-                background-color: white;
                 cursor: pointer;
-                margin: .5rem;
-                border-radius: .3rem;
+                margin: 2rem;
+                color:white;
                 &:hover{
-                    background-color: #aaa;
+                    color: #aaa;
                 }
             }
         }

@@ -1,5 +1,61 @@
+.bg {
+  background: url(https://images.pexels.com/photos/1181427/pexels-photo-1181427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: calc(100vh - 15rem);
+  position: fixed;
+  width: calc(100% - 10rem);
+  background-size: cover;
+  background-position: right;
+}
+
 .group{
   margin-top: 15rem;
   position: relative;
-  background-color: var(--black);
+  //background-color: var(--black);
+  .picspace{
+    height: 40rem;
+  }
+  .group-body{
+    .info-space1{
+      background-color: var(--dark-white);
+      padding: 2rem;
+      &__header{
+        font-weight: bolder;
+        font-size: 3rem;
+        text-transform: uppercase;
+        margin: 1rem;
+      }
+      &__body{
+        margin: 1rem;
+        text-align: justify;
+      }
+    }
+    .groupspace{
+      background-color: var(--light-black);
+      display: flex;
+      color:white;
+      padding:1rem;
+      margin:1rem;
+      &--left{
+        &>*{padding:.5rem;}
+        .img{
+          width: 15rem;
+        }
+        .header{
+          font-size: 2rem;
+          font-weight: bolder;
+          text-transform: uppercase;
+        }
+        .text{
+          text-align: justify;
+        }
+        .link{
+          button{font-size: 1.5rem;}
+        }
+      }
+      &--right{
+  
+      }
+    }
+  
+  }
 }

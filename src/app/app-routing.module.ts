@@ -11,6 +11,7 @@ import { FaqsComponent } from './faqs/faqs.component';
 import { BlogComponent } from './blog/blog.component';
 import { SearchComponent } from './search/search.component';
 import { ProductdescComponent } from './productdesc/productdesc.component';
+import { VideodescComponent } from './videodesc/videodesc.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -27,7 +28,8 @@ const routes: Routes = [
   {path:"search/:company",component:SearchComponent},
   {path:"search/:company/:category",component:SearchComponent},
   {path:"search/:company/:category/:subCategory",component:SearchComponent},
-  {path:"productdesc/:productName",component:ProductdescComponent}
+  {path:"productdesc/:productId",component:ProductdescComponent},
+  {path:"videodesc/:videoId",component:VideodescComponent}
 ];
 
 @NgModule({

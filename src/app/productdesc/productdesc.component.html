@@ -1,8 +1,8 @@
 <app-header></app-header>
-<div class="search">
-    <app-breadcrump buttomMarginLeft="27rem" crump="Home > Search" navText="Search"></app-breadcrump>
-    <div class="search-body">
-        <div class="search-body__left">
+<div class="pdesc">
+    <app-breadcrump buttomMarginLeft="27rem" crump="Home > Search" [navText]="navText"></app-breadcrump>
+    <div class="pdesc-body">
+        <div class="pdesc-body__left">
             <div class="navbox">
                 <div class="navbox__head">Categories</div>
                 <div class="navbox__body">
@@ -10,22 +10,23 @@
                     <div *ngFor="let company of dataStore.companies" class="accorditem">
                         <input type="checkbox" [id]="company.companyName">
                         <label class="head" [for]="company.companyName">
-                            <span style="background-color: blue;" class="cbox"></span> <a
-                            [routerLink]="['/search',company.companyName]">{{company.companyName}}</a>
+                            <span [ngStyle]="{'background-color': getRandomColor()}" class="cbox"></span> <a
+                                [routerLink]="['/search',company.companyName]">{{company.companyName}}</a>
                             <span class="fa fa-arrow-up"></span>
                         </label>
                         <div class="body">
                             <div *ngFor="let category of company.categories" class="accorditem">
                                 <input type="checkbox" [id]="company.companyName+category.categoryName">
                                 <label class="head" [for]="company.companyName+category.categoryName">
-                                    <span style="background-color: blue;" class="cbox"></span> <a
-                                    [routerLink]="['/search',company.companyName,category.categoryName]">{{category.categoryName}}</a>
+                                    <span [ngStyle]="{'background-color': getRandomColor()}" class="cbox"></span> <a
+                                        [routerLink]="['/search',company.companyName,category.categoryName]">{{category.categoryName}}</a>
                                     <span class="fa fa-arrow-up"></span>
                                 </label>
                                 <div class="body">
                                     <ul>
                                         <li *ngFor="let subCategory of category.subCategories"><a
-                                            [routerLink]="['/search',company.companyName,category.categoryName,subCategory.categoryName]">{{subCategory.categoryName}}</a></li>
+                                                [routerLink]="['/search',company.companyName,category.categoryName,subCategory.categoryName]">{{subCategory.categoryName}}</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -36,22 +37,12 @@
                 </div>
             </div>
         </div>
-        <div class="search-body__right">
-            <div *ngIf="searchedProducts" class="searchedproducts">
-                <div class="searchedproducts__body">
-                    <div *ngFor="let product of visibleSearchedProducts" class="prod-container">
-                        <div class="prod-container__body">
-                            <div class="prod-image">
-                                <img [src]="product.imageUrl" alt="prod-Image">
-                            </div>
-                        </div>
-                        <div class="prod-container__footer">
-                            <div class="text">{{product.productName}}</div>
-                        </div>
-                    </div>
+        <div class="pdesc-body__right">
+            <div *ngIf="product" class="pInfo">
+                <div class="pInfo--left" [innerHTML]="product.description"></div>
+                <div class="pInfo--right">
+                    <img [src]="product.imageUrl" alt="">
                 </div>
-                <ngb-pagination [(page)]="pageNumber" [pageSize]="pageSize" [collectionSize]="searchedProducts.length">
-                </ngb-pagination>
             </div>
         </div>
     </div>

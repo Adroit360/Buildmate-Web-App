@@ -1,6 +1,6 @@
 <app-header></app-header>
 <div class="search">
-    <app-breadcrump buttomMarginLeft="27rem" crump="Home > Search" navText="Search"></app-breadcrump>
+    <app-breadcrump buttomMarginLeft="27rem" crump="Home > Search" [navText]="navText"></app-breadcrump>
     <div class="search-body">
         <div class="search-body__left">
             <div class="navbox">
@@ -10,7 +10,7 @@
                     <div *ngFor="let company of dataStore.companies" class="accorditem">
                         <input type="checkbox" [id]="company.companyName">
                         <label class="head" [for]="company.companyName">
-                            <span style="background-color: blue;" class="cbox"></span> <a
+                            <span [ngStyle]="{'background-color': getRandomColor()}" class="cbox"></span> <a
                             [routerLink]="['/search',company.companyName]">{{company.companyName}}</a>
                             <span class="fa fa-arrow-up"></span>
                         </label>
@@ -18,7 +18,7 @@
                             <div *ngFor="let category of company.categories" class="accorditem">
                                 <input type="checkbox" [id]="company.companyName+category.categoryName">
                                 <label class="head" [for]="company.companyName+category.categoryName">
-                                    <span style="background-color: blue;" class="cbox"></span> <a
+                                    <span [ngStyle]="{'background-color': getRandomColor()}" class="cbox"></span> <a
                                     [routerLink]="['/search',company.companyName,category.categoryName]">{{category.categoryName}}</a>
                                     <span class="fa fa-arrow-up"></span>
                                 </label>
@@ -39,7 +39,7 @@
         <div class="search-body__right">
             <div *ngIf="searchedProducts" class="searchedproducts">
                 <div class="searchedproducts__body">
-                    <div *ngFor="let product of visibleSearchedProducts" class="prod-container">
+                    <a [routerLink]="['/productdesc',product.productId]" *ngFor="let product of visibleSearchedProducts" class="prod-container">
                         <div class="prod-container__body">
                             <div class="prod-image">
                                 <img [src]="product.imageUrl" alt="prod-Image">
@@ -48,9 +48,10 @@
                         <div class="prod-container__footer">
                             <div class="text">{{product.productName}}</div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <ngb-pagination [(page)]="pageNumber" [pageSize]="pageSize" [collectionSize]="searchedProducts.length">
+                <div *ngIf="searchedProducts.length == 0" class="emptymsg">No Products to display</div>
+                <ngb-pagination [(page)]="pageNumber" [pageSize]="pageSize" [collectionSize]="searchedProducts.length" style="overflow: auto;max-width: 100%;">
                 </ngb-pagination>
             </div>
         </div>

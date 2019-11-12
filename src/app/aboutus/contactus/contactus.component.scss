@@ -21,7 +21,7 @@
         display: flex;
         flex-direction: column;
         .loc-card{
-          height: 25rem;
+          height: 100%;
           margin: .5rem;
           width:100%;
           box-shadow: var(--shadow);
@@ -29,9 +29,22 @@
           &__left{
             width: 50%;
             background-color: white;
+            padding:1rem;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            .head{
+              font-weight: bolder;
+              text-transform: uppercase;
+            }
           }
           &__right{
             width: 50%;
+            overflow:hidden;
+            &>*{
+              width: 100%;
+              height:100%;
+            }
           }
         }
       }
@@ -40,6 +53,24 @@
         width: 35%;
         background-color: white;
         box-shadow: var(--shadow);
+        padding:2rem;
+        .head{
+          text-transform: uppercase;
+          font-weight: bolder;
+          text-align: center;
+          font-weight: 3rem;
+        }
+        form{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          .btn{
+            width: 10rem;
+            align-self: center;
+            font-size: 1.5rem;
+          }
+        }
+        
       }
     }
     .info-space2,.info-space3{
@@ -49,7 +80,8 @@
         text-align: center;
         font-size: 2.5rem;
         font-weight: bolder;
-        color:var(--color-primary);
+       // color:var(--color-primary);
+       color:white;
         padding: 3rem;
       }
       &__body{
@@ -63,7 +95,8 @@
           &__title{
             text-transform: uppercase;
             font-size: 2.5rem;
-            color:var(--color-primary);
+            //color:var(--color-primary);
+            color:white;
             font-weight: bolder;
           }
           &__text{

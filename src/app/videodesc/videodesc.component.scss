@@ -1,0 +1,25 @@
+.vdesc {
+    margin-top: 15rem;
+    position: relative;
+    background-color: var(--black);
+    .vdesc-body {
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      &--top{
+
+      }
+      &--bottom{
+          color: white;
+          text-align: justify;
+      }
+    }
+  
+    app-footer {
+      display: block;
+      position: relative;
+      z-index: 100;
+    }
+  }
+  

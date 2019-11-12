@@ -2,69 +2,18 @@
 <div class="videos">
     <app-breadcrump crump="Home > Videos" navText="videos"></app-breadcrump>
     <div class="videos__head">Buidmate</div>
-    <div class="videos__body">
-        <div class="allvideos">
-            <div class="vid-container">
+    <div *ngIf="videos" class="videos__body">
+        <div  class="allvideos">
+            <a [routerLink]="['/videodesc',video.videoId]" *ngFor="let video of videos" class="vid-container">
                 <div class="vid-container__body">
                     <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
+                        <img [src]="video.thumbnailUrl" alt="vid-Image">
                     </div>
                 </div>
                 <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
+                    <div class="text">{{video.videoName}}</div>
                 </div>
-            </div>
-            <div class="vid-container">
-                <div class="vid-container__body">
-                    <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
-                    </div>
-                </div>
-                <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
-                </div>
-            </div>
-            <div class="vid-container">
-                <div class="vid-container__body">
-                    <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
-                    </div>
-                </div>
-                <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
-                </div>
-            </div>
-            <div class="vid-container">
-                <div class="vid-container__body">
-                    <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
-                    </div>
-                </div>
-                <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
-                </div>
-            </div>
-            <div class="vid-container">
-                <div class="vid-container__body">
-                    <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
-                    </div>
-                </div>
-                <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
-                </div>
-            </div>
-            <div class="vid-container">
-                <div class="vid-container__body">
-                    <div class="vid-image">
-                        <img src="../../assets/buildmate/DIY/1.jpg" alt="vid-Image">
-                    </div>
-                </div>
-                <div class="vid-container__footer">
-                    <div class="text">ALARMS AND BATTERY BACK UPS/BATBACK</div>
-                </div>
-            </div>
-
+            </a>
         </div>
     </div>
     <app-footer></app-footer>

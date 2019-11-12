@@ -19,4 +19,8 @@ export class HeaderComponent implements OnInit {
   search(){
     this.router.navigate(["/search","word",this.searchWord]);
   }
+
+  getRandomColor(){
+    return '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6)
+  }
 }

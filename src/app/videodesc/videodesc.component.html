@@ -1,0 +1,9 @@
+<app-header></app-header>
+<div class="vdesc">
+    <app-breadcrump crump="Home > Video" [navText]="navText"></app-breadcrump>
+    <div *ngIf="video" class="vdesc-body">
+        <div class="vdesc-body--top" [innerHTML]="vidUrl"></div>
+        <div class="vdesc-body--bottom">{{video.videoDescription}}</div>
+    </div>
+    <app-footer></app-footer>
+</div>

@@ -39,28 +39,43 @@ export class SearchComponent implements OnInit {
   category: string;
   subCategory: string;
   word: string;
-
+  navText: string;
   constructor(public dataStore: DataStore, private activatedRoute: ActivatedRoute) {
 
   }
 
   ngOnInit() {
+
+    this.company = this.activatedRoute.snapshot.params['company'];
+    this.category = this.activatedRoute.snapshot.params['category'];
+    this.subCategory = this.activatedRoute.snapshot.params['subCategory'];
+    this.word = this.activatedRoute.snapshot.params['word'];
+    this.getCompanies();
+
     this.activatedRoute.params.subscribe((params: Params) => {
       this.company = params['company'];
       this.category = params['category'];
       this.subCategory = params['subCategory'];
       this.word = params['word'];
 
-      this.dataStore.getCompanies().then(data => {
-        this.allCompanies = data;
-        if (this.company) {
-          this.search(this.company, this.category, this.subCategory);
-        }
-        else {
-          this.wordSearch(this.word);
-        }
-      })
+      this.getCompanies();
     });
+
+  }
+
+  getCompanies() {
+    this.dataStore.getCompanies().then(data => {
+      this.allCompanies = data;
+      if (this.company) {
+        this.search(this.company, this.category, this.subCategory);
+      }
+      else {
+        this.wordSearch(this.word);
+      }
+
+      this.setNavText(this.company, this.category, this.subCategory, this.word);
+      this.pageNumber = 1;
+    })
   }
 
   search(companyName, categoryName, subCategoryName) {
@@ -92,17 +107,33 @@ export class SearchComponent implements OnInit {
     }
   }
 
+  setNavText(companyName, categoryName, subCategoryName, word) {
+    if (subCategoryName)
+      this.navText = subCategoryName
+    else if (categoryName)
+      this.navText = categoryName
+    else if (companyName)
+      this.navText = companyName
+    else if (word)
+      this.navText = word == "***" ? "All Products" : word;
+  }
+
   wordSearch(word: string) {
     this.searchedProducts = [];
     if (word) {
+
+      if (word.toLowerCase() == "***") {
+        this.dataStore.getProducts().then(data => {
+          this.searchedProducts = data;
+        })
+        return;
+      }
+
       var companies: Company[] = this.allCompanies.filter(i => i.companyName.toLowerCase() == word.toLowerCase());
       if (companies.length == 1)
         return this.search(companies[0].companyName, undefined, undefined);
       else if (companies.length == 0)
         companies = this.allCompanies;
-
-      console.log("companies");
-      console.log(companies);
 
       for (const company of companies) {
         var categories: Category[] = company.categories.filter(i => i.categoryName.toLowerCase() == word.toLowerCase());
@@ -111,10 +142,6 @@ export class SearchComponent implements OnInit {
         else if (categories.length == 0)
           categories = company.categories;
 
-        console.log("Categories");
-        console.log(categories);
-
-
         for (const category of categories) {
           var subCategories = category.subCategories.filter(i => i.categoryName.toLowerCase() == word.toLowerCase());
           if (subCategories.length == 1)
@@ -122,14 +149,8 @@ export class SearchComponent implements OnInit {
           if (subCategories.length == 0)
             subCategories = category.subCategories;
 
-          console.log("subCategories");
-          console.log(subCategories);
-
           for (const subCategory of subCategories) {
             this.searchedProducts.push(...subCategory.products.filter(i => i.productName.toLowerCase().includes(word.toLowerCase())));
-
-            console.log("this.searchedProducts");
-            console.log(this.searchedProducts);
           }
         }
       }
@@ -138,6 +159,10 @@ export class SearchComponent implements OnInit {
 
   getVisibleSearchedProducts(skip: number, take: number) {
     this.visibleSearchedProducts = this.searchedProducts.slice(skip, skip + take);
+  }
+
+  getRandomColor(){
+    return '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6)
   }
 
 }
