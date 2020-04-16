@@ -1,0 +1,6 @@
+<div (click)="prodCatPopup.isShown = false" [ngClass]="{isShown:prodCatPopup.isShown}" class="productpopup">
+    <div *ngIf="prodCatPopup.productCategoryLink" (click)="$event.stopPropagation()" class="productpopup__content">
+        <!-- <div (click)="prodCatPopup.isShown = false" class="closebtn">X</div> -->
+        <iframe style="width: 100%;height:100%" [src]="prodCatPopup.productCategoryLink" frameborder="0"></iframe>
+    </div>
+</div>

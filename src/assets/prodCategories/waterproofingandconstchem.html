@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .product-items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+            overflow: hidden;
+            position: relative;
+            padding-top: 4rem;
+        }
+
+        .product-items .grouptxt {
+            position: absolute;
+            left: 50%;
+            top: 0rem;
+            transform: translateX(-50%);
+        }
+
+        .item-container {
+            flex-basis: 15rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            margin: .5rem;
+            position: relative;
+        }
+
+        .item {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        img {
+            height: 15rem;
+        }
+
+        .text {
+            text-align: center;
+            background-color: #fbff00;
+            height: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text:hover {
+            background-color: #ffae00;
+        }
+
+        .item-container:hover {
+            cursor: pointer;
+
+        }
+
+        .item-container:hover .item-hover {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .item-hover {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, .7);
+            transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            color: white;
+            visibility: hidden;
+            opacity: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Thinner for Wood</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.everbuild.co.uk/wp-content/uploads/2017/08/202-Integral-Liquid-Waterproofer.png"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>202 INTEGRAL LIQUID WATERPROOFER</h4>
+                    </a>
+                    <a></a> <a
+                       ></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.everbuild.co.uk/wp-content/uploads/2012/05/JETWAT3-265x428.png"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a
+                        class="title">
+                        <h4>JETCEM WATERPROOFING RAPID SETTING CEMENT</h4>
+                    </a>
+                    <a>
+                    </a> <a></a>
+                </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.everbuild.co.uk/wp-content/uploads/2017/08/AQWRSMEM5.png"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a
+                        class="title">
+                        <h4>AQUASEAL WATERPROOF TANKING MEMBRANE</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a
+                        class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a
+                           
+                            class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.everbuild.co.uk/wp-content/uploads/2017/08/AQWRSTAPE10.png"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>AQUASEAL WATERPROOF TANKING TAPE</h4>
+                    </a>
+                    <a></a> <a
+                       ></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.everbuild.co.uk/wp-content/uploads/2017/08/SK1WAT5-265x408.png"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>SIKA 1 WATERPROOFER</h4>
+                    </a>
+                    <a></a> <a
+                       ></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.everbuild.co.uk/wp-content/uploads/2014/02/SKBDWATPVA5-265x408.png"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>SIKABOND WATERPROOF PVA</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.everbuild.co.uk/wp-content/uploads/2014/03/SKMAXMWAT1-198x449.png"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>SIKA MAXMIX WATERPROOFER</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://sherwin.scene7.com/is/image/sw/paint_template-1?layer=comp&fmt=jpeg&qlt=92%2C0&op_sharpen=0&op_usm=0.0%2C0.0%2C0%2C0&iccEmbed=0&printRes=150&_tparam_layer_1_src=sw%2F650167943-Sher-Crete-Flexible-Waterproofer-Smooth-Flat-Extra-White-1-Gallon&fit=constrain%2C0&resMode=bilin&wid=300"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>Sher-Crete Flexible Waterproofer Smooth</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

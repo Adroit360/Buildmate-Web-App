@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .product-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+        position: relative;
+        padding-top: 4rem;
+    }
+
+    .product-items .grouptxt {
+        position: absolute;
+        left: 50%;
+        top: 0rem;
+        transform: translateX(-50%);
+    }
+
+    .item-container {
+        flex-basis: 15rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        margin: .5rem;
+        position: relative;
+    }
+
+    .item {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    img {
+        height: 15rem;
+    }
+
+    .text {
+        text-align: center;
+        background-color: #fbff00;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text:hover {
+        background-color: #ffae00;
+    }
+
+    .item-container:hover {
+        cursor: pointer;
+
+    }
+
+    .item-container:hover .item-hover {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .item-hover {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .7);
+        transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        color: white;
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Floor</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/supershield-extra-pu-gold.jpg?Status=Master&amp;sfvrsn=7a287240_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SuperShield <br>Extra Polyurethane</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/supershield-extra-pu-silver.jpg?Status=Master&amp;sfvrsn=110ab1d4_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SuperShield <br>Extra Polyurethane</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-polyurethane-2k-gloss.jpg?Status=Master&amp;sfvrsn=ab9a0771_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Polyurethane Gloss 2K</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-polyurethane-2k-semi-gloss.jpg?Status=Master&amp;sfvrsn=547a76c2_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Polyurethane Semi-Gloss 2K </h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-polyurethane-2k-matt.jpg?Status=Master&amp;sfvrsn=c95a9334_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA <br>Polyurethane Matt 2K</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-pu1k-t-4000.jpg?Status=Master&amp;sfvrsn=8a0baf47_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Polyurethane T-4000</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-pu1k-t-3000.jpg?Status=Master&amp;sfvrsn=56326df5_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Polyurethane T-3000</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-pu1k-wb.jpg?Status=Master&amp;sfvrsn=cad623fd_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Polyurethane Waterborne</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-pu1k-wb.jpg?Status=Master&amp;sfvrsn=cad623fd_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Polyurethane Waterborne</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-deckingstain-waterborne.jpg?Status=Master&amp;sfvrsn=3705a9bc_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>DeckingStain Waterborne</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-deckingstain.jpg?Status=Master&amp;sfvrsn=670a9b35_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA DeckingStain</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-wood-primer.jpg?Status=Master&amp;sfvrsn=8a615508_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA Wood Primer T-2000</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-pu-s-4000.jpg?Status=Master&amp;sfvrsn=b7da764f_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Polyurethane S-4000</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-pu-s-3000.jpg?Status=Master&amp;sfvrsn=1fd77a02_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Polyurethane S-3000</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Wall</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/supershield-timbershield.jpg?Status=Master&amp;sfvrsn=e1c4969d_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SuperShield TimberShield</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-woodstain-gloss.jpg?Status=Master&amp;sfvrsn=99b3b831_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA WoodStain Gloss</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-woodstain-semi-gloss.jpg?Status=Master&amp;sfvrsn=c1bfcec7_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA WoodStain Semi-Gloss</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-woodstain-matt.jpg?Status=Master&amp;sfvrsn=e3316bb_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA WoodStain Matt</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-woodstain-waterborne.jpg?Status=Master&amp;sfvrsn=67616612_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA WoodStain Waterborne <br>Gloss</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-woodstain-waterborne.jpg?Status=Master&amp;sfvrsn=67616612_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA WoodStain Waterborne <br>Semi-Gloss</h4>
+                    </a>
+                    <a></a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Wall</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-wood-shield.jpg?Status=Master&amp;sfvrsn=8d640ef9_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA Wood Shield Sheen</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-wood-presevative.jpg?Status=Master&amp;sfvrsn=5a5cd78d_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA Wood Preservative <br>Transparent</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-aluminium-wood-primer.jpg?Status=Master&amp;sfvrsn=c01f80ce_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA <br>Aluminium Wood Primer</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-woodstain-gloss.jpg?Status=Master&amp;sfvrsn=8fa5865c_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>SHARK WoodStain Gloss</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-woodstain-semi-gloss.jpg?Status=Master&amp;sfvrsn=d17607c_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>WoodStain Semi-Gloss</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Furniture</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-fast-dryce50c5581d8a496f9cdc4055992c77ed.jpg?Status=Master&amp;sfvrsn=d3274319_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Lacquer Primer Surfacer</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-fast-dry-whiteafd59a97720d4329a717df7f2e85db9b.jpg?Status=Master&amp;sfvrsn=8c188b4b_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Lacquer Primer Surfacer</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-lacquer-t-5000.jpg?Status=Master&amp;sfvrsn=7492111f_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Clear Gloss Lacquer T-5000</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-lacquer-t-5500.jpg?Status=Master&amp;sfvrsn=2272dfd4_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Clear Matt Lacquer T-5500</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-lacquer-waterborne.jpg?Status=Master&amp;sfvrsn=e77dd1e3_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Gloss Lacquer Waterborne</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-lacquer-waterborne.jpg?Status=Master&amp;sfvrsn=e77dd1e3_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Matt Lacquer Waterborne </h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-lacquer-t-5555.jpg?Status=Master&amp;sfvrsn=8523992c_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Lacquer Sanding Sealer</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/default-album/toa-il.jpg?Status=Master&amp;sfvrsn=61e70d94_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA <br>Industrial Lacquer</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-il-gloss.jpg?Status=Master&amp;sfvrsn=97797397_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Industrial Lacquer</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-industrial-lacquer-waterborne.jpg?Status=Master&amp;sfvrsn=8c3faf84_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Industrial Lacquer </h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-il-wb.jpg?Status=Master&amp;sfvrsn=29fcc9ef_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Industrial Lacquer Primer</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-lacquer-primer.jpg?Status=Master&amp;sfvrsn=badcb4bb_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Lacquer Primer Surfacer</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-il-white-primer-surface.jpg?Status=Master&amp;sfvrsn=a73d8071_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Lacquer Primer Surfacer </h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-varnish-t-8000.jpg?Status=Master&amp;sfvrsn=bfbfb989_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Varnish Gloss T-8000</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-varnish-t-8500.jpg?Status=Master&amp;sfvrsn=86319824_6"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Varnish Black Gloss T-8500</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Furniture</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-varnish-t-9000.jpg?Status=Master&amp;sfvrsn=450dd76_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Varnish Matt T-9000</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-varnish-t-9500.jpg?Status=Master&amp;sfvrsn=ca6d2d9_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA <br>Varnish Gloss T-9500</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-teakoil.jpg?Status=Master&amp;sfvrsn=e790d5c_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA Teak Oil <br>Wood Preservative </h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-coloring-stain.jpg?Status=Master&amp;sfvrsn=4b6b8712_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA <br>Super Coloring</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/supertech-il.jpg?Status=Master&amp;sfvrsn=e62790d8_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SUPERTECH <br>Industrial Lacquer Gloss</h4>
+                    </a>
+                    <a></a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/supertech-lacquer-grey.jpg?Status=Master&amp;sfvrsn=23307c95_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SUPERTECH <br>Lacquer Primer Surfacer</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/supertech-lacquer-white.jpg?Status=Master&amp;sfvrsn=bf77b01_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SUPERTECH <br>Lacquer Primer Surfacer</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-lacquer-s-5000.jpg?Status=Master&amp;sfvrsn=183c876d_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Clear Gloss Lacquer S-5000</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-lacquer-s-5500.jpg?Status=Master&amp;sfvrsn=278bc636_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Clear Matt Lacquer S-5500</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-lacquer-s-5555.jpg?Status=Master&amp;sfvrsn=e57f5c8a_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Lacquer Sanding Sealer </h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-il.jpg?Status=Master&amp;sfvrsn=c6b707f2_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Industrial Lacquer Gloss </h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-industrial.jpg?Status=Master&amp;sfvrsn=93b49b7d_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Industrial Lacquer Matt</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-grey-primer.jpg?Status=Master&amp;sfvrsn=50f0c54b_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Primer Surfacer (Grey) </h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-varnish-s-8000.jpg?Status=Master&amp;sfvrsn=92dd6088_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Varnish Gloss S-8000</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/shark-teakoil.jpg?Status=Master&amp;sfvrsn=19d114a1_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SHARK <br>Teak Oil Wood Preservative</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Wood Renewable Material</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-fibercement-shield-semi-gloss.jpg?Status=Master&amp;sfvrsn=1418c327_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA Fibercement Shield <br>Waterborne (Semi-Gloss)</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-fibercement-shield-gloss-tranparent.jpg?Status=Master&amp;sfvrsn=3bb3f987_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA Fibercement Shield <br>Waterborne (Gloss)</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-fibercement-shield-woodstain.jpg?Status=Master&amp;sfvrsn=f418be0c_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA Fibercement Shield <br>Waterborne (Semi-Gloss)</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-fibercement-shield-decking-stainc7af93421ce74e2d814c9d88f7a113b4.jpg?Status=Master&amp;sfvrsn=1fe7610_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA Fibercement Shield <br>Waterborne Decking Stain</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-fibercement-primer.jpg?Status=Master&amp;sfvrsn=21c8d197_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA Fibercement Primer <br>T1000</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

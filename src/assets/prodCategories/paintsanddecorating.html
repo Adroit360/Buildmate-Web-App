@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paints and Decorating</title>
+    <style>
+        .product-items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+            overflow: hidden;
+            position: relative;
+            padding-top: 4rem;
+        }
+
+        .product-items .grouptxt {
+            position: absolute;
+            left: 50%;
+            top: 0rem;
+            transform: translateX(-50%);
+        }
+
+        .item-container {
+            flex-basis: 15rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            margin: .5rem;
+            position: relative;
+        }
+
+        .item {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .img {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        img {
+            height: 15rem;
+        }
+
+        .text {
+            text-align: center;
+            background-color: #fbff00;
+            height: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text:hover {
+            background-color: #ffae00;
+        }
+
+        .item-container:hover {
+            cursor: pointer;
+
+        }
+
+        .item-container:hover .item-hover {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .item-hover {
+            box-sizing: border-box;
+            text-align: justify;
+            font-size: 1rem;
+            padding:.5rem;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, .7);
+            transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            color: white;
+            visibility: hidden;
+            opacity: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Texture Product</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/default-album/toa-walltex.jpg?Status=Master&amp;sfvrsn=4484f5a0_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA WallTex</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+
+                    Texture paint to create various patterns on surface for beauty, attractiveness and uniqueness with
+                    easy application. It is excellent adhesive, durable, weather resistance and long lasting. It helps
+                    covering up uneven surface and good for both exterior and interior.
+
+                    Create decorative textures by various tools.
+                    Able to cover defects on surfaces.
+                    Ready to use.
+                    Minimize top coat usage.
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/default-album/toa-decor-stone.jpg?Status=Master&amp;sfvrsn=675881d6_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA Décor Stone</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-as-primer.jpg?Status=Master&amp;sfvrsn=931be849_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA AS Primer Water Base </h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-clear-coat-water-base.jpg?Status=Master&amp;sfvrsn=33b542da_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA Clear Coat Water Base</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/default-album/ss-timebershield.jpg?Status=Master&amp;sfvrsn=112c52a5_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA ElasticShield</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-elasticshield-sealer.jpg?Status=Master&amp;sfvrsn=a65a378c_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA ElasticShield Sealer</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Special Effects Paint</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/supershield-decor-effect-coat.jpg?Status=Master&amp;sfvrsn=ba0481bb_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SuperShield Décor <br>Effect Coat</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/supershield-decor-primer-base.jpg?Status=Master&amp;sfvrsn=97d46626_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>SuperShield Décor <br>Primer &amp; Base</h4>
+                    </a>
+                    <a></a>
+                    <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/supershield-pearl-effect.jpg?Status=Master&amp;sfvrsn=58492ca5_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>SuperShield Pearl Effect</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-modern-glass-paint.jpg?Status=Master&amp;sfvrsn=95269c6f_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA Modern Glass Paint</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-modern-glass-paint.jpg?Status=Master&amp;sfvrsn=95269c6f_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA Modern Glass Primer</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/aw pack/สีตกแต่งพิเศษ/aw-pack-toa-loft-exterior-490x490px-en.png?Status=Master&amp;sfvrsn=26917c8c_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA Loft Exterior</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/aw pack/สีตกแต่งพิเศษ/aw-pack-toa-loft-interior-490x490px-en.png?Status=Master&amp;sfvrsn=f67d2b43_4"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA Loft Interior</h4>
+                    </a>
+                    <a></a>
+                    <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Gold Paint</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-gold-waterbase-topcoat.jpg?Status=Master&amp;sfvrsn=cbf7c2f2_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA GOLD <br>Waterbase Paint</h4>
+                    </a>
+                    <a></a>
+                    <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-gold-waterbase-primer.jpg?Status=Master&amp;sfvrsn=58815f66_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA GOLD <br>Waterbase Primer</h4>
+                    </a>
+                    <a></a> <a class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-gold-acrylic-lacquer-topcoat.jpg?Status=Master&amp;sfvrsn=b6b006cb_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA GOLD <br>Acrylic Lacquer Paint</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-gold-acrylic-lacquer-primer.jpg?Status=Master&amp;sfvrsn=aa96c123_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a class="title">
+                        <h4>TOA GOLD <br>Acrylic Lacquer Primer</h4>
+                    </a>
+                    <a></a> <a></a>
+                </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/toa-gold-enamel-topcoat.jpg?Status=Master&amp;sfvrsn=59bb633_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA GOLD <br>Enamel Paint</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/heavy-duty-coatings/toa-thinner-74n.jpg?Status=Master&amp;sfvrsn=e6aa85d9_12"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA Thinner <br>No.74N for TOA Gold Paint </h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Special Tools</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/elasticshield-roller.jpg?Status=Master&amp;sfvrsn=389bfd34_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA ElasticShield Roller</h4>
+                    </a>
+                    <a></a> <a></a> </div>
+                <div class="item-hover">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

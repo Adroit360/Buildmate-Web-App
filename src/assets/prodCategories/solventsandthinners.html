@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .product-items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+            overflow: hidden;
+            position: relative;
+            padding-top: 4rem;
+        }
+
+        .product-items .grouptxt {
+            position: absolute;
+            left: 50%;
+            top: 0rem;
+            transform: translateX(-50%);
+        }
+
+        .item-container {
+            flex-basis: 15rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            margin: .5rem;
+            position: relative;
+        }
+
+        .item {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        img {
+            height: 15rem;
+        }
+
+        .text {
+            text-align: center;
+            background-color: #fbff00;
+            height: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text:hover {
+            background-color: #ffae00;
+        }
+
+        .item-container:hover {
+            cursor: pointer;
+
+        }
+
+        .item-container:hover .item-hover {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .item-hover {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, .7);
+            transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            color: white;
+            visibility: hidden;
+            opacity: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Thinner for Wood</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/thinner-21.jpg?Status=Master&amp;sfvrsn=eb793a6e_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA <br>Thinner No.21</h4>
+                    </a>
+                    <a></a> <a
+                       ></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/thinner1k-41.jpg?Status=Master&amp;sfvrsn=2d8b0fc5_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a
+                        class="title">
+                        <h4>TOA <br>Polyurethane Thinner No.41</h4>
+                    </a>
+                    <a>
+                        <p>1K </p>
+                    </a> <a></a>
+                </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/thinner2k-43n.jpg?Status=Master&amp;sfvrsn=a1f431c6_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a
+                        class="title">
+                        <h4>TOA <br>Polyurethane Thinner No.43</h4>
+                    </a>
+                    <a>
+                        <p>2K</p>
+                    </a> <a
+                        class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a
+                           
+                            class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-lacquer-thinner-71.jpg?Status=Master&amp;sfvrsn=660b9b10_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA <br>Lacquer Thinner No.71</h4>
+                    </a>
+                    <a></a> <a
+                       ></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-thinner-235.png?Status=Master&amp;sfvrsn=444bff60_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>TOA <br>Retarder Thinner No.235</h4>
+                    </a>
+                    <a></a> <a
+                       ></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://www.toagroup.com/images/default-source/products/wood/toa-thinner-pu1k-88.png?Status=Master&amp;sfvrsn=d60e193b_2"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>SHARK <br>Polyurethane Thinner No.88</h4>
+                    </a>
+                    <a>
+                        <p>1K</p>
+                    </a> <a></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

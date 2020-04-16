@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .product-items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+            overflow: hidden;
+            position: relative;
+            padding-top: 4rem;
+        }
+
+        .product-items .grouptxt {
+            position: absolute;
+            left: 50%;
+            top: 0rem;
+            transform: translateX(-50%);
+        }
+
+        .item-container {
+            flex-basis: 15rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            margin: .5rem;
+            position: relative;
+        }
+
+        .item {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        img {
+            height: 15rem;
+        }
+
+        .text {
+            text-align: center;
+            background-color: #fbff00;
+            height: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text:hover {
+            background-color: #ffae00;
+        }
+
+        .item-container:hover {
+            cursor: pointer;
+
+        }
+
+        .item-container:hover .item-hover {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .item-hover {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, .7);
+            transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            color: white;
+            visibility: hidden;
+            opacity: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row product-items">
+        <div class="grouptxt">
+            <h2>Roof Membrane</h2>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://portal.danosa.com/media/5Subfamilia_TITULO_FOTO+F111A+L1+1.jpg"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a
+                        class="title">
+                        <h4>Sand-covered asphaltic sheets</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a
+                        class="prdqlt"></a> </div>
+                <div class="item-hover">
+                    <div class="btn-action"> <a
+                           
+                            class="btn blue"></a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://portal.danosa.com/media/5Subfamilia_TITULO_FOTO+F111P+L1+1.jpg"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>Plastic asphaltic sheets</h4>
+                    </a>
+                    <a></a> <a
+                       ></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://portal.danosa.com/media/5Subfamilia_TITULO_FOTO+F111AL+L1+1.jpg"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>Metallic self-protected sheets</h4>
+                    </a>
+                    <a></a> <a
+                       ></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://portal.danosa.com/media/RefLaminasB_TITULO_FOTO+141278+L7+1.jpg"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>ESTERDAN PLUS 50/GP WALKWAY RED MEMBRANE</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://portal.danosa.com/media/RefLaminasB_TITULO_FOTO+205001+L1+1.jpg"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>Self-adhesive Tape SELF-DAN 10 cm</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <div class="producttag">
+                    <div class="row"></div>
+                </div>
+                <div class="img"><a><img
+                            src="https://portal.danosa.com/media/RefLaminasB_TITULO_FOTO+205003+L1+1.jpg"
+                            class="img-responsive"></a></div>
+                <div class="text"> <a>
+                        <h4>Self-adhesive Tape SELF-DAN 30cm</h4>
+                    </a>
+                    <a>
+                        
+                    </a> <a></a> </div>
+                <div class="item-hover">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
