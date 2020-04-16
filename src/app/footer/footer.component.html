@@ -4,21 +4,21 @@
             <div class="pages__header">Pages</div>
             <div class="pages__body">
                 <ul>
-                    <li><a routerLink="/">-Products</a></li>
-                    <li><a routerLink="/aboutus">-About Us</a></li>
-                    <li><a routerLink="/videos">-Video</a></li>
-                    <li><a routerLink="/blog">-blog</a></li>
-                    <li><a routerLink="/aboutus/group">-Group</a></li>
-                    <li><a routerLink="/aboutus/history">-History</a></li>
-                    <li><a routerLink="/aboutus/contactus">-Contact Us</a></li>
+                    <li><a routerLink="/">Products</a></li>
+                    <li><a routerLink="/aboutus">About Us</a></li>
+                    <li><a routerLink="/videos">Video</a></li>
+                    <li><a routerLink="/blog">blog</a></li>
+                    <li><a routerLink="/aboutus/group">Group</a></li>
+                    <li><a routerLink="/aboutus/history">History</a></li>
+                    <li><a routerLink="/aboutus/contactus">Contact Us</a></li>
                 </ul>
             </div>
         </div>
         <div class="categories">
-            <div class="categories__header">Patners</div>
+            <div class="categories__header">Partners</div>
             <div class="categories__body">
                 <ul *ngIf="dataStore.companies">
-                    <li *ngFor="let company of dataStore.companies"><a [routerLink]="['/search',company.companyName]">-{{company.companyName}}</a></li>
+                    <li *ngFor="let company of dataStore.companies"><a [routerLink]="['/search',company.companyName]">{{company.companyName}}</a></li>
                 </ul>
             </div>
         </div>
@@ -26,7 +26,9 @@
             <div class="contact__header">contact</div>
             <div class="contact__body">
                 <ul>
-                    <li>Tel:0557560016</li>
+                    <li>Tel:030 294 3333</li>
+                    <li>Tel:027 741 4141</li>
+                    <li>Email:info@buildmateghana.com</li>
                     <li>Buildmate Specialist Product Limited</li>
                     <li>19 Kojo Thompson Road</li>
                     <li>Opp. F Malawi Eng.</li>

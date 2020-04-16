@@ -4,6 +4,7 @@ import { Product } from 'src/Models/product';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Company } from 'src/Models/company';
 import { Category } from 'src/Models/category';
+import { ProductCategoryPopupService } from 'src/Services/productCategoryPopup.service';
 
 @Component({
   selector: 'app-search',
@@ -39,24 +40,50 @@ export class SearchComponent implements OnInit {
   category: string;
   subCategory: string;
   word: string;
-  navText: string;
-  constructor(public dataStore: DataStore, private activatedRoute: ActivatedRoute) {
-
+  navText: string = ".";
+  _popupKey;
+  get popupKey(){
+    return this._popupKey;
+  }
+  set popupKey(value){
+    this._popupKey = value;
+    this.showProductCategoryModal(value);
+  }
+  _isProdCat;
+  get isProdCat(){
+    return this._isProdCat;
+  }
+  set isProdCat(value){
+    this._isProdCat = value;
+    if(!value){
+      console.log("isProductCat",value);
+      this.hideProductCategoryModal();
+    }
+  }
+  constructor(public dataStore: DataStore, private activatedRoute: ActivatedRoute,public prodCatPopup:ProductCategoryPopupService) {
   }
 
   ngOnInit() {
-
+    this.isProdCat = this.activatedRoute.snapshot.queryParams['isprodcat']
     this.company = this.activatedRoute.snapshot.params['company'];
     this.category = this.activatedRoute.snapshot.params['category'];
     this.subCategory = this.activatedRoute.snapshot.params['subCategory'];
     this.word = this.activatedRoute.snapshot.params['word'];
     this.getCompanies();
 
+    this.activatedRoute.queryParams.subscribe((params:Params)=>{
+      this.isProdCat = params['isprodcat']
+    });
+
+
     this.activatedRoute.params.subscribe((params: Params) => {
       this.company = params['company'];
       this.category = params['category'];
       this.subCategory = params['subCategory'];
       this.word = params['word'];
+
+      if(this.isProdCat)
+        this.popupKey = this.word;
 
       this.getCompanies();
     });
@@ -88,11 +115,13 @@ export class SearchComponent implements OnInit {
 
         if (subCategoryName) {
           var subCategory = category.subCategories.filter(i => i.categoryName == subCategoryName)[0];
+          if(subCategory)
           this.searchedProducts.push(...subCategory.products);
           return;
         }
 
         for (const subCategory of category.subCategories) {
+          if(subCategory)
           this.searchedProducts.push(...subCategory.products);
         }
         return;
@@ -164,5 +193,15 @@ export class SearchComponent implements OnInit {
   getRandomColor(){
     return '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6)
   }
+
+  showProductCategoryModal(popupKey:string){
+    this.prodCatPopup.isShown = true;
+    this.prodCatPopup.popupKey = popupKey;
+  }
+
+  hideProductCategoryModal(){
+    this.prodCatPopup.isShown = false;
+  }
+
 
 }

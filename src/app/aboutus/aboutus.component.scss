@@ -5,11 +5,19 @@
   width: calc(100% - 10rem);
   background-size: cover;
   background-position: right;
+  @media screen and (max-width:600px) {
+    width:100%;
+    height:100%;
+  }
 }
 
 .aboutus {
-  margin-top: 15rem;
+  margin-top: 20rem;
+  @media screen and (max-width:600px) {
+    margin-top: 15rem;
+  }
   position: relative;
+  overflow: hidden;
   //background-color: var(--black);
   .picspace{
     height: 40rem;
@@ -41,12 +49,21 @@
     &__body{
       margin:3rem;
       display: flex;
+      flex-wrap: wrap;
+      
       .info-space2__infobox{
         margin:1rem;
         text-align: center;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width:600px) {
+          &:not(:first-child){
+            margin-top:8rem;
+          }
+        }
         img{
-          width: 30rem;
+          //width: 30rem;
           height: 30rem;
         }
         .img-title{

@@ -8,6 +8,9 @@
         font-weight: bolder;
     }
     &__bottom{
+        @media screen and (max-width:1000px){
+            margin-left: 0rem !important;
+        }
         &--text{
             padding:2rem;
             text-transform: uppercase;

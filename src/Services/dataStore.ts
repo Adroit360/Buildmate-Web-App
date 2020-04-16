@@ -14,11 +14,15 @@ export class DataStore {
     companies: Company[];
     allProducts: Product[];
     videos: Video[];
+    categoryColors = [];
+    companyColors = [];
 
     constructor(private httpClient: HttpClient) {
         this.allProducts = [];
         this.getCompanies().then(value => {
             this.companies = value;
+            this.setCategoryColors();
+            this.setCompanyColors();
             this.getProducts();
         });
     }
@@ -84,6 +88,25 @@ export class DataStore {
             }
         },
         )
+    }
+
+    setCategoryColors() {
+        this.companies.forEach((company, compIndex) => {
+            this.categoryColors[compIndex] = []
+            company.categories.forEach((category, catIndex) => {
+                this.categoryColors[compIndex].push(this.getRandomColor());
+            });
+        });
+    }
+
+    setCompanyColors(){
+        this.companies.forEach((company, compIndex) => {
+            this.companyColors.push(this.getRandomColor());
+        });
+    }
+
+    getRandomColor():string {
+        return '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6)
     }
 
 }

@@ -16,8 +16,7 @@ export class HomeComponent implements OnInit {
 
   newProducts: Product[];
   latestVideos: Video[];
-
-  images = ["../../assets/buildmate/banners/1.jpg", "../../assets/buildmate/banners/3.jpg", "../../assets/buildmate/banners/5.jpg"]
+  images = [ "../../assets/buildmate/banners/6.jpg", "../../assets/buildmate/banners/3.jpg","../../assets/buildmate/banners/1.jpg"]
   constructor(public dataStore: DataStore, public httpClient: HttpClient) {
     this.getNewProducts();
     this.getVideosFromDataStore();

@@ -1,18 +1,22 @@
 .search {
-  margin-top: 15rem;
+  margin-top: 20rem;
+  @media screen and (max-width:600px) {
+    margin-top: 15rem;
+  }
   position: relative;
   background-color: var(--black);
   .search-body {
     padding: 2rem;
     position: relative;
     top: -11rem;
+    margin-bottom: -10rem;
     display: flex;
     overflow: hidden;
     &__left {
       height: 100%;
       .navbox {
         position: fixed;
-        height: calc(100vh - 25rem);
+        height: calc(100vh - 30rem);
         z-index: 1;
         &__head {
           text-align: center;
@@ -33,6 +37,11 @@
         background-color: white;
         // height: 60rem;
         overflow-y: auto;
+
+        @media screen and (max-width:1000px){
+          display: none;
+        }
+  
       }
     }
     &__right {
@@ -40,6 +49,9 @@
       position: relative;
       margin-top: 11rem;
       margin-left: 27rem;
+      @media screen and (max-width:1000px){
+        margin-left: 0px;
+      }
       width: calc(100% - 26rem);
       overflow: hidden;
       .searchedproducts {
@@ -47,7 +59,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        min-height: calc(100vh - 25rem);
+        min-height: calc(100vh - 30rem);
         &__body {
           display: flex;
           justify-content: center;

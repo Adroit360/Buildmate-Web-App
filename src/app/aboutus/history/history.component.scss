@@ -1,5 +1,9 @@
 .history {
-  margin-top: 15rem;
+  margin-top: 20rem;
+  @media screen and (max-width:600px) {
+    margin-top: 15rem;
+  }
+
   position: relative;
   background-color: var(--black);
   .historyspace{
@@ -8,17 +12,21 @@
     margin: 2rem;
     padding:2rem;
     display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
     &--left{
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
+      flex-wrap: wrap;
       height: 100%;
+      overflow: hidden;
       &>*{
         margin: 1rem;
-        width: 40rem;
+        //width: 40rem;
       }
       iframe{
-        height: 22rem;
+        width:100%;
       }
     }
     &--right{
@@ -26,6 +34,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
+      flex-wrap: wrap;
       height:100%;
     }
   }

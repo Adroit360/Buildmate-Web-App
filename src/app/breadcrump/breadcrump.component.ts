@@ -8,9 +8,9 @@ import { Component, OnInit, Input, ViewChild, ElementRef, Renderer2 } from '@ang
 export class BreadcrumpComponent implements OnInit {
   @ViewChild('crumpBottom', {static: true}) crumpBottom :ElementRef;
 
-  @Input("navText") navText:string;
+  @Input("navText") navText:string = " ";
   
-  @Input("crump") crump:string;
+  @Input("crump") crump:string = " ";
 
   @Input("buttomMarginLeft") buttomMarginLeft:string = "0px";
 

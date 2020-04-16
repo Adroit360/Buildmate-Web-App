@@ -6349,16 +6349,6 @@
             ]
         },
         {
-            "companyId": 6,
-            "companyName": "Feb",
-            "categories": []
-        },
-        {
-            "companyId": 7,
-            "companyName": "TOA",
-            "categories": []
-        },
-        {
             "companyId": 8,
             "companyName": "Soudal",
             "categories": [
@@ -6371,304 +6361,320 @@
                             "subCategoryId": 158,
                             "categoryName": "Soudal Sealants",
                             "categoryIdFk": 47,
-                            "products": []
+                            "products": [
+                                {
+                                    "productId": 335,
+                                    "productName": "Soudal Fix All Flex",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_one_full  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first  av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Fix All Crystal<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>The 100% Crystal Clear sealant and adhesive for&nbsp;applications where looks matter. Great for&nbsp;bonding glass to glass, or anything requiring&nbsp;invisible sealing and bonding with a transparent&nbsp;product. Can be used for food-safe applications.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Based on Soudal\u2019s SMX Hybrid Polymer Technology<\/li>\r\n<li>Uncompromising performance as both a sealant and an adhesive<\/li>\r\n<li>Permanent flexibility and elasticity<\/li>\r\n<li>High adhesive strength<\/li>\r\n<li>Tested to FDA Food safe specifications<\/li>\r\n<li>100% transparent \u2013 not milky; not cloudy<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>290 ml cartridges, 12&nbsp;cartridges \/ carton<\/p>\r\n<h5>Colours available<\/h5>\r\n<p>Crystal clear<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/01/Fix-All-Crystal.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 336,
+                                    "productName": "Soudal Fix All Crystal",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_one_full  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first  av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Fix All Crystal<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>The 100% Crystal Clear sealant and adhesive for&nbsp;applications where looks matter. Great for&nbsp;bonding glass to glass, or anything requiring&nbsp;invisible sealing and bonding with a transparent&nbsp;product. Can be used for food-safe applications.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Based on Soudal\u2019s SMX Hybrid Polymer Technology<\/li>\r\n<li>Uncompromising performance as both a sealant and an adhesive<\/li>\r\n<li>Permanent flexibility and elasticity<\/li>\r\n<li>High adhesive strength<\/li>\r\n<li>Tested to FDA Food safe specifications<\/li>\r\n<li>100% transparent \u2013 not milky; not cloudy<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>290 ml cartridges, 12&nbsp;cartridges \/ carton<\/p>\r\n<h5>Colours available<\/h5>\r\n<p>Crystal clear<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/01/Fix-All-Crystal.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 337,
+                                    "productName": "SOUDAL FIX ALL HIGH TACK",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_heading  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Fix All High Tack<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>The super-strong adhesive in the Fix All Range, with a very high initial grab \u2013 just apply and press, and the high tack ensures it holds up without sliding or dropping. Also, it has a final bond strength of 320 kg\/10 cm\u00B2 \u2013 far surpassing typical adhesives.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Based on Soudal\u2019s SMX Hybrid Polymer Technology<\/li>\r\n<li>Super strong&nbsp;adhesive performance on almost all materials \u2013 up to&nbsp;32 kg\/cm\u00B2<\/li>\r\n<li>High initial tack means immediate bond able to support very heavy weights<\/li>\r\n<li>No more holding up materials by hand or building support struts<\/li>\r\n<li>Retains elasticity to accommodate any movements<\/li>\r\n<li>Tested and certified to BRL 3107&nbsp;construction adhesive specifications<\/li>\r\n<li>Extremely durable and water-, weather-, and chemical-resistant<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>290 ml cartridges, 12&nbsp;cartridges \/ carton<\/p>\r\n<h5>Colours available<\/h5>\r\n<p>White<\/p>\r\n<p>Also available: Clear variant called <a href=\"https:\/\/www.pfe.tech\/products\/soudal-fix-all-high-tack-invisible\/\">Fix All High Tack Invisible<\/a><\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/01/Fix-All-High-Tack.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 338,
+                                    "productName": "Soudal Multibond SMX50",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_heading  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Multibond SMX50<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>SEAL &amp; STICK anything, in almost any condition! Multibond SMX50 features very high adhesive strength that lasts through rain, water, snow, and sun \u2013 with no decline in performance. Its elasticity also ensures its bond through movements or vibrations, where other rigid adhesives will crack. Multibond SMX50 is packed in economical 600 ml sausages for maximum savings.<\/p>\r\n<p>Soudal\u2019s proprietary SMX hybrid polymer technology means that this product can bond and work on virtually all materials, and even underwater.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Based on Soudal\u2019s proprietary SMX hybrid polymer technology<\/li>\r\n<li>Extremely high adhesive strength on most construction materials<\/li>\r\n<li>Permanently elastic<\/li>\r\n<li>Superb weather, water, and UV resistance<\/li>\r\n<li>Packed in economical 600 ml sausages \u2013 perfect for high volume users<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>600 ml sausages, 12 sausages \/ carton<\/p>\r\n<h5>Colour<\/h5>\r\n<p>White<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/09/Multibond-SMX50.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 339,
+                                    "productName": "Soudal Aquaswell",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_hr  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Aquaswell<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>AQUASWELL is a one-component, high-quality polyurethane sealant that swells in contact with water to form a waterproof seal. Developed for water-tight and gastight sealing in pipe and cable penetrations, especially in concrete.<\/p>\r\n<section class=\"av_textblock_section\"><\/section>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Waterproof up to 5 bar<\/li>\r\n<li>Gas-tight up to 5 bar<\/li>\r\n<li>DVGW VP-601 certified<\/li>\r\n<li>Swells up to 450% in contact with water<\/li>\r\n<li>Retains original shape after contact with water is gone.<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>310 ml cartridges, 12 cartridges \/ carton<\/p>\r\n<h5>Colour<\/h5>\r\n<p>Beige<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2019/03/Aquaswell.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 340,
+                                    "productName": "Soudal Soudapack WST",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_hr  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Soudapack WST<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>SOUDAPACK WST is a one-component, solvent-free, hydro-swelling sealant to prevent water leaks in the inside of pipes. Soudapack WST does not cure but remains permanently flexible, through which additional cables or pipes can be carried through at all times.<\/p>\r\n<section class=\"av_textblock_section\"><\/section>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Water-tight, water-vapour-tight, and gas-tight up to 3 bar<\/li>\r\n<li>Water impermeable<\/li>\r\n<li>Swells in contact with water \u2013 to prevent leaking<\/li>\r\n<li>Immediate seal of leaks<\/li>\r\n<li>Does not harden<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>310 ml cartridges, 12 cartridges \/ carton<\/p>\r\n<h5>Colour<\/h5>\r\n<p>Yellow<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2019/03/Soudapack-WST.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "categoryId": 48,
-                    "categoryName": "Moisture Resistance",
+                    "categoryName": "Fix all hybrid polymers",
                     "companyIdFk": 8,
                     "subCategories": [
                         {
                             "subCategoryId": 159,
-                            "categoryName": "Resistance",
+                            "categoryName": "Fix all hybrid polymers",
                             "categoryIdFk": 48,
-                            "products": []
+                            "products": [
+                                {
+                                    "productId": 341,
+                                    "productName": "Soudal Fix All Turbo",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_one_full  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first  av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Fix All Turbo<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>Our high strength adhesive can be used to bond heavy materials in as quickly as 20 minutes! Achieving such a strong bond in such a short time is no easy feat, but what\u2019s more impressive is in how long the product lasts.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Based on Soudal\u2019s SMX Hybrid Polymer Technology<\/li>\r\n<li>Super fast, high-strength adhesive performance on almost all materials<\/li>\r\n<li>Capable of achieving up to 90% of final bond strength in 20 minutes<\/li>\r\n<li>Retains elasticity to accommodate any movements<\/li>\r\n<li>Tested to BRL 3107&nbsp;construction adhesive specifications<\/li>\r\n<li>Extremely durable and water-, weather-, and chemical-resistant<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>290 ml cartridges, 12&nbsp;cartridges \/ carton<\/p>\r\n<h5>Colours available<\/h5>\r\n<p>White<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/01/Fix-All-Turbo.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 342,
+                                    "productName": "Soudal Fix All High Tack",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_heading  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Fix All High Tack<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>The super-strong adhesive in the Fix All Range, with a very high initial grab \u2013 just apply and press, and the high tack ensures it holds up without sliding or dropping. Also, it has a final bond strength of 320 kg\/10 cm\u00B2 \u2013 far surpassing typical adhesives.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Based on Soudal\u2019s SMX Hybrid Polymer Technology<\/li>\r\n<li>Super strong&nbsp;adhesive performance on almost all materials \u2013 up to&nbsp;32 kg\/cm\u00B2<\/li>\r\n<li>High initial tack means immediate bond able to support very heavy weights<\/li>\r\n<li>No more holding up materials by hand or building support struts<\/li>\r\n<li>Retains elasticity to accommodate any movements<\/li>\r\n<li>Tested and certified to BRL 3107&nbsp;construction adhesive specifications<\/li>\r\n<li>Extremely durable and water-, weather-, and chemical-resistant<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>290 ml cartridges, 12&nbsp;cartridges \/ carton<\/p>\r\n<h5>Colours available<\/h5>\r\n<p>White<\/p>\r\n<p>Also available: Clear variant called <a href=\"https:\/\/www.pfe.tech\/products\/soudal-fix-all-high-tack-invisible\/\">Fix All High Tack Invisible<\/a><\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/01/Fix-All-High-Tack.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 343,
+                                    "productName": "Soudal Fix All High Tack Invisible",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_heading  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first  av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Fix All High Tack Invisible<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>Combine the super strong properties of High Tack with the 100% transparent appearance of Crystal, and you have our ultimate invisible bonding solution \u2013 Fix All High Tack Invisible! With a final bond strength of up to 320 kg\/10 cm<sup>2<\/sup>, outstanding initial tack, and crystal clear appearance, this product is the ultimate adhesive.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Based on Soudal\u2019s SMX Hybrid Polymer Technology<\/li>\r\n<li>Super strong&nbsp;adhesive performance on almost all materials \u2013 up to&nbsp;32 kg\/cm\u00B2<\/li>\r\n<li>100% super clear appearance \u2013 not milky or cloudy<\/li>\r\n<li>High initial tack means immediate bond able to support very heavy weights<\/li>\r\n<li>No more holding up materials by hand or building support struts<\/li>\r\n<li>Retains elasticity to accommodate any movements<\/li>\r\n<li>Tested and certified to BRL 3107&nbsp;construction adhesive specifications<\/li>\r\n<li>Extremely durable and water-, weather-, and chemical-resistant<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>290 ml cartridges, 12&nbsp;cartridges \/ carton<\/p>\r\n<h5>Colours available<\/h5>\r\n<p>Clear<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/01/Fix-All-High-Tack-Invisible.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 344,
+                                    "productName": "Soudal Fix All Xtreme Power",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_one_full  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Fix All Xtreme Power<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>The most extreme of the Fix All Range, you can count on this adhesive to fulfill all your bonding requirements in the most simple ways. With an initial tack of 400 kg \/ m\u00B2, you just apply and press, and the&nbsp;extreme tack ensures it holds up immediately without sliding.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Based on Soudal\u2019s SMX Hybrid Polymer Technology<\/li>\r\n<li>Extreme tack means it can hold 400 kg \/ m\u00B2 in its initial bond!<\/li>\r\n<li>No more holding up materials by hand or making support struts<\/li>\r\n<li>Extremely high adhesive strength to most materials<\/li>\r\n<li>Bonds onto humid surfaces, even underwater<\/li>\r\n<li>Extremely durable with superb resistance to water, weather, chemicals, and movements<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>290 ml cartridges, 12&nbsp;cartridges \/ carton<\/p>\r\n<h5>Colours available<\/h5>\r\n<p>White<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/02/Fix-All-Xtreme-Power.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 345,
+                                    "productName": "Soudal Ultra Repair Adhesive",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_one_full  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Ultra Repair Adhesive<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>The transparent, super strong adhesive for&nbsp;quick and challenging bonding jobs. With its extreme adhesive strength and ease of application, Soudal Ultra is a great adhesive for all types of repair and adhesive applications around the house, factory, and beyond.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Based on Soudal\u2019s SMX Hybrid Polymer Technology<\/li>\r\n<li>Uncompromising performance as an adhesive<\/li>\r\n<li>Extremely high adhesive strength<\/li>\r\n<li>Fast strength build-up \u2013 can be stressed after 1.5 hours.<\/li>\r\n<li>Can be used on almost any material<\/li>\r\n<li>Does not stick on skin immediately like cyanoacrylate adhesives (super glues)<\/li>\r\n<li>Opened tube is usable more than a month<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>20 ml tubes, 20 tubes \/ carton<\/p>\r\n<h5>Colours available<\/h5>\r\n<p>Transparent<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2018/10/Soudal-Ultra-Adhesive.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "categoryId": 49,
-                    "categoryName": "Chemical Anchoring",
+                    "categoryName": "PU FOAMS",
                     "companyIdFk": 8,
                     "subCategories": [
                         {
                             "subCategoryId": 160,
                             "categoryName": "Anchoring",
                             "categoryIdFk": 49,
-                            "products": []
+                            "products": [
+                                {
+                                    "productId": 346,
+                                    "productName": "Soudal Fill & Fix Foam",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_one_full  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Fill <span class=\"special_amp\">&amp;<\/span> Fix Foam<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>Soudal Fill &amp; Fix Foam with CFC-free propellant is a one-component, self-expanding, ready-to-use polyurethane foam with propellants which are completely harmless to the ozone layer. Every can comes with a straw adapter which makes applications fuss-free and simple. Each 750 ml can of Soudal Fill &amp; Fix Foam can be expected to create up to 42&nbsp;litres of cured foam.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Manufactured with Soudal\u2019s proprietary open-cell PU foam technology<\/li>\r\n<li>Comes with straw adapter; no other accessories required<\/li>\r\n<li>Excellent adhesion on most substrates<\/li>\r\n<li>High thermal and acoustical insulation<\/li>\r\n<li>High yield with good filling capacities<\/li>\r\n<li>Excellent stability (no shrinkage or post expansion)<\/li>\r\n<li>Water-resistant, and capable of creating a waterproof barrier<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>750 ml pressurised aerosol cans, 12&nbsp;cans \/ carton<\/p>\r\n<h5>Colour<\/h5>\r\n<p>Champagne<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/02/Soudal-Fill-Fix-Foam.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 347,
+                                    "productName": "Soudal Soudafoam Gun PU Foam",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_heading  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Soudafoam Gun<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>Soudafoam Gun is a one-component, self-expanding polyurethane foam with CFC-free propellants that&nbsp;are completely harmless to the ozone layer. It requires the use of a specialized PU foam gun; this gun allows for ergonomic application and for achieving its large filling capacities. With its super-high-yield formulation and an expansion value of up to 57x, each 750 ml can of Soudafoam Gun can be expected to create up to 43 litres of cured foam.<\/p>\r\n<p>Requires <a href=\"https:\/\/www.pfe.tech\/products\/soudal-compact-foam-gun\/\" target=\"_blank\">Soudal PU Foam Gun<\/a>&nbsp;for application.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Manufactured with Soudal\u2019s proprietary open-cell PU foam technology<\/li>\r\n<li>Excellent adhesion on most substrates<\/li>\r\n<li>High thermal and acoustical insulation<\/li>\r\n<li>Very high yield with good filling capacities<\/li>\r\n<li>Excellent stability (no shrinkage or post expansion)<\/li>\r\n<li>Water-resistant, and capable of creating a waterproof barrier<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>750 ml pressurised aerosol cans, 12&nbsp;cans \/ carton<\/p>\r\n<h5>Colour<\/h5>\r\n<p>Champagne<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/02/Soudafoam-Gun.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 348,
+                                    "productName": "Soudal Soudafoam FR Fire-rated PU Foam",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_one_full  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Soudafoam FR<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>Soudafoam FR is a single-component, self-expanding, ready-to-use polyurethane foam which has a fire rating of up to 240&nbsp;minutes in certain configurations according to EN 1366-4. It uses CFC-free propellants that are completely harmless to the ozone layer. Every can comes with a straw adapter for quick,&nbsp;simple, and convenient application to fill gaps, cavities, and joints. With its high-yield formulation and an expansion value of 30 to 40x, each 750 ml can of Soudafoam FR can be expected to create up to 30 litres of cured, fire-resistant foam.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Manufactured with Soudal\u2019s proprietary open-cell PU foam technology<\/li>\r\n<li>Fire-rated up to 4 hours<\/li>\r\n<li>Prevents the passage of smoke and gas through a joint<\/li>\r\n<li>Excellent adhesion on most substrates (except PTFE, PP, and PE)<\/li>\r\n<li>High thermal and acoustical insulation<\/li>\r\n<li>Very good filling capacities<\/li>\r\n<li>Comes with straw adapter; no other accessories required<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>750 ml pressurised aerosol cans, 12&nbsp;cans \/ carton<\/p>\r\n<h5>Colour<\/h5>\r\n<p>Pink<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/02/Soudafoam-FR-1.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 349,
+                                    "productName": "Soudal Soudabond Easy PU Foam Adhesive",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_heading  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Soudabond Easy PU Foam Adhesive<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>SOUDABOND EASY GUN is a one-component PU foam adhesive for permanent bonding of insulation panels, building boards, and plasterboard in building and construction. Soudabond Easy\u2019s 750g of pre-polymer expands to 240 linear metres of adhesive beads, allowing a single can to bond up to 14 m\u00B2 of area.<\/p>\r\n<p>Requires <a rel=\"noopener\" href=\"https:\/\/www.pfe.tech\/products\/soudal-compact-foam-gun\/\" target=\"_blank\">Soudal PU Foam Gun<\/a>&nbsp;for application.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Cuts working time by up to 30%, compared to conventional methods<\/li>\r\n<li>Cuts adhesive material cost by 76% (against typical construction adhesive)<\/li>\r\n<li>One canister can cover up to 14 m\u00B2 of insulation<\/li>\r\n<li>One canister is equivalent to a 25 kg bag of masonry or AAC adhesive<\/li>\r\n<li>Easy, precise application using foam gun, with no need for mixing<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-6  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>750 ml pressurised aerosol cans, 12&nbsp;cans \/ carton<\/p>\r\n<h5>Colour<\/h5>\r\n<p>Orange<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2019/07/Soudabond-Easy.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 350,
+                                    "productName": "Soudal Gun & Foam Cleaner",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-4  el_after_av_one_third  el_before_av_heading  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-5  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Gun <span class=\"special_amp\">&amp;<\/span> Foam Cleaner<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>Soudal Gun and Foam Cleaner is a ready-to-use cleaning aerosol can for use on <a href=\"https:\/\/www.pfe.tech\/products\/soudal-soudafoam-gun\/\" target=\"_blank\">Soudafoam Gun<\/a> and Soudal foams. Cleans and partially dissolves fresh and uncured PU foam and foam stains. Also necessary for the cleaning and maintenance of PU foam guns. Fitted with regular threaded adapter for foam guns, and includes spray attachment.<\/p>\r\n<ul>\r\n<li>Highly effective in dissolving and washing off uncured PU foam<\/li>\r\n<li>Has a threaded screw adapter to affix cleaner on to foam gun<\/li>\r\n<li>Pressurized, so that cleaning fluid can be sprayed out from foam gun using trigger, dissolving and expelling uncured PU foam within gun<\/li>\r\n<li>Can also be used in other areas due to attachable spray nozzle<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-7  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><h5>Packaging<\/h5>\r\n<p>500&nbsp;ml pressurised aerosol cans, 12&nbsp;cans \/ carton<\/p>\r\n<h5><\/h5>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/02/Soudal-Gun-and-Foam-Cleaner.png",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                },
+                                {
+                                    "productId": 351,
+                                    "productName": "Soudal Compact Foam Gun",
+                                    "productCode": null,
+                                    "description": "<div class=\"flex_column av_two_third  flex_column_div av-zero-column-padding   avia-builder-el-3  el_after_av_one_third  el_before_av_hr  \" style=\"border-radius:0px; \"><div style=\"padding-bottom:10px; font-size:20px;\" class=\"av-special-heading av-special-heading-h1  blockquote modern-quote  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first   av-inherit-size \"><h1 class=\"av-special-heading-tag \" itemprop=\"headline\">Soudal Compact Foam Gun<\/h1><div class=\"special-heading-border\"><div class=\"special-heading-inner-border\"><\/div><\/div><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p>High quality, lightweight PU foam gun for professional applications requiring precise dosing and best cell structure. This PU foam gun is a necessary tool for application of Gun-type PU foams, such as&nbsp;<a href=\"https:\/\/www.pfe.tech\/products\/soudal-soudafoam-gun\/\" target=\"_blank\">Soudafoam Gun<\/a>. Requires cleaning after use with a suitable PU foam cleaner, such as <a href=\"https:\/\/www.pfe.tech\/products\/soudal-gun-foam-cleaner\/\">Soudal Gun and Foam Cleaner<\/a>.<\/p>\r\n<\/div>\r\n<\/section>\r\n<section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<ul>\r\n<li>Synthetic finish for easy cleaning<\/li>\r\n<li>Lightweight and easy-to-use<\/li>\r\n<li>Achieves very high yield by creating frothing action during extrusion<\/li>\r\n<li>Long-lasting and heavy-duty<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/section>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><section class=\"av_textblock_section\">\r\n<div class=\"avia_textblock \">\r\n<p><strong>Applications<\/strong><\/p>\r\n<p>For the application and extrusion of gun-type PU foams<\/p>\r\n<\/div>\r\n<\/section>\r\n<\/div><\/section>\r\n<div class=\"hr hr-short hr-left   avia-builder-el-7  el_after_av_textblock  el_before_av_textblock \"><span class=\"hr-inner \"><span class=\"hr-inner-style\"><\/span><\/span><\/div>\r\n<section class=\"av_textblock_section \" itemscope=\"itemscope\" itemtype=\"https:\/\/schema.org\/CreativeWork\"><div class=\"avia_textblock  \" itemprop=\"text\"><p><strong>Packaging<\/strong><\/p>\r\n<p>1 gun per box<\/p>\r\n<p><strong>Colour<\/strong><\/p>\r\n<p>Blue<\/p>\r\n<\/div><\/section><\/div>",
+                                    "colour": null,
+                                    "packSize": null,
+                                    "boxQty": null,
+                                    "boxes_Pallet": null,
+                                    "relatedProducts": null,
+                                    "productExplanation": null,
+                                    "imageUrl": "https://www.pfe.tech/wp-content/uploads/2017/02/Soudal-Compact-Foam-Gun.jpg",
+                                    "videoIds": null,
+                                    "documentIds": null,
+                                    "subCategoryIdFk": 1
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "categoryId": 50,
-                    "categoryName": "PU-Foams",
+                    "categoryName": "Adhesives",
                     "companyIdFk": 8,
                     "subCategories": [
                         {
                             "subCategoryId": 161,
                             "categoryName": "Foams",
                             "categoryIdFk": 50,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 51,
-                    "categoryName": "Fix All",
-                    "companyIdFk": 8,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 162,
-                            "categoryName": "Fix Alls",
-                            "categoryIdFk": 51,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 52,
-                    "categoryName": "Perfect Job",
-                    "companyIdFk": 8,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 163,
-                            "categoryName": "Perfect jobs",
-                            "categoryIdFk": 52,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 53,
-                    "categoryName": "Adhesives",
-                    "companyIdFk": 8,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 164,
-                            "categoryName": "Adhesives",
-                            "categoryIdFk": 53,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 54,
-                    "categoryName": "Aerosols",
-                    "companyIdFk": 8,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 165,
-                            "categoryName": "Aerosols",
-                            "categoryIdFk": 54,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 55,
-                    "categoryName": "Accessories",
-                    "companyIdFk": 8,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 166,
-                            "categoryName": "Accessories",
-                            "categoryIdFk": 55,
-                            "products": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "companyId": 9,
-            "companyName": "IKO",
-            "categories": [
-                {
-                    "categoryId": 39,
-                    "categoryName": "Roofing",
-                    "companyIdFk": 9,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 167,
-                            "categoryName": "Roofings",
-                            "categoryIdFk": 39,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 40,
-                    "categoryName": "Merchant Products",
-                    "companyIdFk": 9,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 169,
-                            "categoryName": "Merchant Products",
-                            "categoryIdFk": 40,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 41,
-                    "categoryName": "Insulation",
-                    "companyIdFk": 9,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 170,
-                            "categoryName": "Insulations",
-                            "categoryIdFk": 41,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 42,
-                    "categoryName": "Cladding",
-                    "companyIdFk": 9,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 171,
-                            "categoryName": "Cladding",
-                            "categoryIdFk": 42,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 43,
-                    "categoryName": "Highways & Civils",
-                    "companyIdFk": 9,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 172,
-                            "categoryName": "Highways & Civils",
-                            "categoryIdFk": 43,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 44,
-                    "categoryName": "Car Parks",
-                    "companyIdFk": 9,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 173,
-                            "categoryName": "Car Parks",
-                            "categoryIdFk": 44,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 45,
-                    "categoryName": "Balconies, Terraces & Walkways",
-                    "companyIdFk": 9,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 174,
-                            "categoryName": "Balconies, Terraces & Walkways",
-                            "categoryIdFk": 45,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 46,
-                    "categoryName": "Flooring & Paving",
-                    "companyIdFk": 9,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 175,
-                            "categoryName": "Flooring & Paving",
-                            "categoryIdFk": 46,
-                            "products": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "companyId": 10,
-            "companyName": "Danosa",
-            "categories": [
-                {
-                    "categoryId": 33,
-                    "categoryName": "Bitumous Waterproofing",
-                    "companyIdFk": 10,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 176,
-                            "categoryName": "Bitumous Waterproofing",
-                            "categoryIdFk": 33,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 34,
-                    "categoryName": "Single Waterproofing",
-                    "companyIdFk": 10,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 177,
-                            "categoryName": "Single Waterproofings",
-                            "categoryIdFk": 34,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 35,
-                    "categoryName": "Acoustic Insulation",
-                    "companyIdFk": 10,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 178,
-                            "categoryName": "Acoustic Insulations",
-                            "categoryIdFk": 35,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 36,
-                    "categoryName": "Thermal Insulation",
-                    "companyIdFk": 10,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 179,
-                            "categoryName": "Thermal Insulations",
-                            "categoryIdFk": 36,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 37,
-                    "categoryName": "Drainages",
-                    "companyIdFk": 10,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 180,
-                            "categoryName": "Drainages",
-                            "categoryIdFk": 37,
-                            "products": []
-                        }
-                    ]
-                },
-                {
-                    "categoryId": 38,
-                    "categoryName": "Geotextiles",
-                    "companyIdFk": 10,
-                    "subCategories": [
-                        {
-                            "subCategoryId": 181,
-                            "categoryName": "Geotextiles",
-                            "categoryIdFk": 38,
                             "products": []
                         }
                     ]

@@ -22,6 +22,8 @@ import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { ProductdescComponent } from './productdesc/productdesc.component';
 import { VideodescComponent } from './videodesc/videodesc.component';
+import { ProductPopupComponent } from './product-popup/product-popup.component';
+import { ProductCategoryPopupService } from 'src/Services/productCategoryPopup.service';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import { VideodescComponent } from './videodesc/videodesc.component';
     BlogComponent,
     SearchComponent,
     ProductdescComponent,
-    VideodescComponent
+    VideodescComponent,
+    ProductPopupComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +52,7 @@ import { VideodescComponent } from './videodesc/videodesc.component';
     HttpClientModule,
     NgbModule
   ],
-  providers: [DataStore],
+  providers: [DataStore,ProductCategoryPopupService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

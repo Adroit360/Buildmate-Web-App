@@ -1,15 +1,23 @@
 .bg {
-  background: url(../../assets/images/bgwide.jpeg);
+  background: url(../../assets/images/homebg.jpg);
   height: calc(100vh - 15rem);
   position: fixed;
   width: calc(100% - 10rem);
   background-size: cover;
   background-position: right;
+  @media screen and (max-width:600px) {
+    width:100%;
+    height:100%;
+  }
 }
 .home {
   //background-color:white;
   // height:300rem;
-  margin-top: 15rem;
+  margin-top: 20rem;
+  @media screen and (max-width:600px) {
+    margin-top: 15rem;
+  }
+
   position: relative;
   .pcarousel {
     //background: url(../../assets/buildmate/banners/1.jpg);
@@ -77,19 +85,21 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+      overflow: hidden;
     }
   }
 
   .pworldclass {
     display: flex;
-    height: 30rem;
+    //height: 30rem;
     padding: 3rem;
     background-color: #333;
+    flex-wrap: wrap;
     &__left {
       flex-grow: 1;
       margin: 1rem;
       background-color: white;
-      max-width: 50%;
+      width: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -97,13 +107,15 @@
       text-align: center;
       height: 100%;
       padding: 1rem;
+      overflow: hidden;
     }
     &__right {
       flex-grow: 1;
       margin: 1rem;
       background-color: white;
       height: 100%;
-      max-width: 50%;
+      width: 50%;
+      overflow: hidden;
       &--header {
         text-align: center;
         font-size: 1.6rem;
